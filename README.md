@@ -1,7 +1,7 @@
 ## Overview
 
 Visualization data for [covid19-forecast-hub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/weekly-summaries)
-  
+
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
