@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'CDCgov/covid19-forecast-hub'
-          path: hub
+          path: covid_forecast_hub
           submodules: false
 
       - name: Setup R
@@ -45,10 +45,10 @@ jobs:
       - name: Generate data files
         run: |
           REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
-          Rscript hub/src/get_covid_hosp_data.R --reference_date "$REF_DATE" --base_hub_path "hub/" --hub_reports_path "." --target_data FALSE
-          Rscript hub/src/get_forecast_data.R --reference_date "$REF_DATE" --base_hub_path "hub/" --hub_reports_path "." --horizons_to_include 0 1 2
-          Rscript hub/src/get_map_data.R --reference_date "$REF_DATE" --base_hub_path "hub/" --hub_reports_path "." --horizons_to_include 0 1 2
-          Rscript hub/src/get_webtext.R --reference_date "$REF_DATE" --base_hub_path "hub/" --hub_reports_path "."
+          Rscript covid_forecast_hub/src/get_covid_hosp_data.R --reference_date "$REF_DATE" --base_hub_path "covid_forecast_hub/" --hub_reports_path "." --target_data FALSE
+          Rscript covid_forecast_hub/src/get_forecast_data.R --reference_date "$REF_DATE" --base_hub_path "covid_forecast_hub/" --hub_reports_path "." --horizons_to_include 0 1 2
+          Rscript covid_forecast_hub/src/get_map_data.R --reference_date "$REF_DATE" --base_hub_path "covid_forecast_hub/" --hub_reports_path "." --horizons_to_include 0 1 2
+          Rscript covid_forecast_hub/src/get_webtext.R --reference_date "$REF_DATE" --base_hub_path "covid_forecast_hub/" --hub_reports_path "."
         env:
           NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
