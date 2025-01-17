@@ -22,14 +22,12 @@ jobs:
       - name: Checkout current repo
         uses: actions/checkout@v4
 
-      - name: Checkout code
+      - name: Checkout covidhub repo
         uses: actions/checkout@v4
         with:
           repository: 'CDCgov/covid19-forecast-hub'
           path: hub
-
-      - name: List Files in hub/src
-        run: ls -R hub
+          submodules: false
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
