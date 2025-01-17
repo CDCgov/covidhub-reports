@@ -19,14 +19,15 @@ jobs:
           application_id: ${{ vars.GH_APP_ID }}
           application_private_key: ${{ secrets.GH_APP_KEY }}
 
-      - name: Checkout code
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
+      - name: Checkout covidhub repo
         uses: actions/checkout@v4
         with:
           repository: 'CDCgov/covid19-forecast-hub'
           path: hub
-
-      - name: Checkout current repo
-        uses: actions/checkout@v4
+          submodules: false
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
