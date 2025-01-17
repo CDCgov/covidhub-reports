@@ -19,14 +19,14 @@ jobs:
           application_id: ${{ vars.GH_APP_ID }}
           application_private_key: ${{ secrets.GH_APP_KEY }}
 
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           repository: 'CDCgov/covid19-forecast-hub'
           path: hub
-
-      - name: Checkout current repo
-        uses: actions/checkout@v4
 
       - name: List Files in hub/src
         run: ls -R hub
