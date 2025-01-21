@@ -2,8 +2,8 @@ name: Generate weekly visualization data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '00 16 * * 4'
+  repository_dispatch:
+    types: [ensemble-added]
 
 jobs:
   update-visualization-data:
