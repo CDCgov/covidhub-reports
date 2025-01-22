@@ -2,9 +2,9 @@
 
 The following data
 
-* are generated partially from COVID Hub submissions.
-* are generated partially from COVID Hub truth data.
-* are used by the Inform Division for visualization.
+* are generated partially from [COVID Hub submissions](https://github.com/CDCgov/covid19-forecast-hub/tree/fc5fbf60d1212368dc5197c32e06b043e751c086/model-output).
+* are generated partially from [NHSN hospital respiratory data](https://www.cdc.gov/nhsn/psc/hospital-respiratory-reporting.html).
+* are used for COVID-19 hospital admissions forecast visualization.
 * follows a particular schema, outlined below.
 
 Sections below come from the (2024-11-29) version of Inform's data dictionary file:
