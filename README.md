@@ -1,6 +1,6 @@
 ## Overview
 
-Visualization data for [covid19-forecast-hub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/weekly-summaries)
+Visualization data for [covid19-forecast-hub](https://github.com/CDCgov/covid19-forecast-hub/tree/main)
 
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
