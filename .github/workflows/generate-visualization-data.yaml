@@ -47,12 +47,8 @@ jobs:
         with:
           pak-version: "devel"
           packages: |
-            argparser
-            readr
-            dplyr
-            lubridate
-            tidyselect
             github::cdcgov/hubhelpr
+            github::cdcgov/forecasttools
 
       - name: "Generate Data Files"
         run: |
@@ -62,7 +58,46 @@ jobs:
             REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
           fi
           echo "Using reference date: $REF_DATE"
-          Rscript src/generate_visualization_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
+          Rscript -e "
+            ref_date <- '$REF_DATE'
+            base_hub_path <- 'covid19-forecast-hub/'
+            hub_reports_path <- '.'
+            disease <- 'covid'
+            horizons <- c(0, 1, 2)
+
+            output_dir <- fs::path(hub_reports_path, 'weekly-summaries', ref_date)
+            fs::dir_create(output_dir)
+            cli::cli_inform('Directory is ready: {output_dir}')
+
+            target_data <- forecasttools::pull_nhsn_hrd() |>
+              dplyr::filter(disease == 'covid') |>
+              dplyr::select(date, location, value = totalconfc19newadm)
+            target_file <- fs::path(output_dir, paste0(ref_date, '_covid_target_hospital_admissions_data.csv'))
+            readr::write_csv(target_data, target_file)
+            cli::cli_inform('File saved as: {target_file}')
+
+            pop_data <- forecasttools::us_location_population_data()
+
+            # generate ensemble summary
+            hubhelpr::write_ref_date_summary_ens(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data
+            )
+
+            # generate all models summary
+            hubhelpr::write_ref_date_summary_all(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data
+            )
+          "
 
       - name: "Commit Changes"
         uses: EndBug/add-and-commit@v9
