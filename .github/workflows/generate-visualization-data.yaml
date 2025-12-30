@@ -1,7 +1,12 @@
-name: Generate weekly visualization data
+name: "Generate Weekly Visualization Data"
 
 on:
   workflow_dispatch:
+    inputs:
+      reference_date:
+        description: "Reference date (YYYY-MM-DD, must be Saturday). Leave empty for auto-calculation."
+        required: false
+        type: string
   repository_dispatch:
     types: [ensemble-added]
 
@@ -11,51 +16,91 @@ permissions:
 jobs:
   update-visualization-data:
     if: ${{ github.repository_owner == 'CDCgov' }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Get Token
-        id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@v4
+      - name: "Generate Installation Token"
+        id: get_token
+        uses: actions/create-github-app-token@v2
         with:
-          application_id: ${{ vars.GH_APP_ID }}
-          application_private_key: ${{ secrets.GH_APP_KEY }}
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_KEY }}
 
-      - name: Checkout current repo
-        uses: actions/checkout@v4
+      - name: "Checkout Current Repository"
+        uses: actions/checkout@v6
 
-      - name: Checkout covidhub repo
-        uses: actions/checkout@v4
+      - name: "Checkout covid19-forecast-hub Repository"
+        uses: actions/checkout@v6
         with:
           repository: 'CDCgov/covid19-forecast-hub'
-          path: covid19_forecast_hub
+          path: covid19-forecast-hub
 
-      - name: Setup R
+      - name: "Setup R"
         uses: r-lib/actions/setup-r@v2
         with:
-          install-r: false
+          install-r: true
           use-public-rspm: true
 
-      - name: Install dependencies
-        run: |
-          install.packages(c("argparser", "fs", "readr", "dplyr", "remotes", "RcppTOML", "tidyr", "lubridate", "glue"))
-          remotes::install_github('cdcgov/forecasttools')
-          remotes::install_github("hubverse-org/hubData")
-        shell: Rscript {0}
+      - name: "Set Up R Dependencies"
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          pak-version: "devel"
+          packages: |
+            argparser
+            RcppTOML
+            github::hubverse-org/hubData
+            github::cdcgov/hubhelpr
+            github::cdcgov/forecasttools
 
-      - name: Generate data files
+      - name: "Generate Data Files"
         run: |
-          REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
-          Rscript covid19_forecast_hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "." --target-data FALSE
-          Rscript covid19_forecast_hub/src/get_forecast_data.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "." --horizons-to-include 0 1 2
-          Rscript covid19_forecast_hub/src/get_map_data.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "." --horizons-to-include 0 1 2
-          Rscript covid19_forecast_hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "."
-        env:
-          NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
-          NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
+          if [ -n "${{ inputs.reference_date }}" ]; then
+            REF_DATE="${{ inputs.reference_date }}"
+          else
+            REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
+          fi
+          echo "Using reference date: $REF_DATE"
 
-      - name: Commit changes
+          Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
+          # generate ensemble and all models summaries
+          Rscript -e "
+            ref_date <- '$REF_DATE'
+            base_hub_path <- 'covid19-forecast-hub/'
+            hub_reports_path <- '.'
+            disease <- 'covid'
+            horizons <- c(0, 1, 2)
+
+            pop_data <- readr::read_csv(
+              fs::path(base_hub_path, 'auxiliary-data', 'locations_with_2023_census_pop.csv'),
+              show_col_types = FALSE
+            ) |>
+              dplyr::select(location, population)
+
+            # generate ensemble summary
+            hubhelpr::write_ref_date_summary_ens(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data
+            )
+
+            # generate all models summary
+            hubhelpr::write_ref_date_summary_all(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data
+            )
+          "
+          # generate web text
+          Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
+
+      - name: "Commit Changes"
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update weekly data and web text"
@@ -63,8 +108,9 @@ jobs:
           push: true
           new_branch: add-viz-data
 
-      - name: Create pull request
+      - name: "Create Pull Request"
+        id: create_pr
         run: |
-          gh pr create --base main --head add-viz-data --title "Weekly forecast visualization data" --body "This PR adds weekly visualization data files to the repo."
+          gh pr create --base main --head add-viz-data --title "Weekly forecast visualization data" --body "This PR is generated automatically to add weekly visualization data files."
         env:
-          GH_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
+          GH_TOKEN: ${{ steps.get_token.outputs.token }}
