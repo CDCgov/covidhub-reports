@@ -58,31 +58,15 @@ jobs:
             REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
           fi
           echo "Using reference date: $REF_DATE"
+          
+          Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
+          # generate ensemble and all models summaries
           Rscript -e "
             ref_date <- '$REF_DATE'
             base_hub_path <- 'covid19-forecast-hub/'
             hub_reports_path <- '.'
             disease <- 'covid'
             horizons <- c(0, 1, 2)
-
-            output_dir <- fs::path(hub_reports_path, 'weekly-summaries', ref_date)
-            fs::dir_create(output_dir)
-            cli::cli_inform('Directory is ready: {output_dir}')
-
-            target_data <- forecasttools::pull_data_cdc_gov_dataset(
-              dataset = 'nhsn_hrd_prelim'
-            ) |>
-              dplyr::mutate(
-                jurisdiction = dplyr::case_match(jurisdiction, 'USA' ~ 'US', .default = jurisdiction)
-              ) |>
-              dplyr::transmute(
-                week_ending_date = as.Date(weekendingdate),
-                location = forecasttools::us_location_recode(jurisdiction, 'abbr', 'code'),
-                value = as.numeric(totalconfc19newadm)
-              )
-            target_file <- fs::path(output_dir, glue::glue('{ref_date}_covid_target_hospital_admissions_data.csv'))
-            readr::write_csv(target_data, target_file)
-            cli::cli_inform('File saved as: {target_file}')
 
             pop_data <- readr::read_csv(
               fs::path(base_hub_path, 'auxiliary-data', 'locations_with_2023_census_pop.csv'),
