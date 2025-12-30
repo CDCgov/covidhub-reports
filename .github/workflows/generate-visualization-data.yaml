@@ -72,8 +72,14 @@ jobs:
             target_data <- forecasttools::pull_data_cdc_gov_dataset(
               dataset = 'nhsn_hrd_prelim'
             ) |>
-              dplyr::filter(disease == 'covid') |>
-              dplyr::select(date, location, value = totalconfc19newadm)
+              dplyr::mutate(
+                jurisdiction = dplyr::case_match(jurisdiction, 'USA' ~ 'US', .default = jurisdiction)
+              ) |>
+              dplyr::transmute(
+                week_ending_date = as.Date(weekendingdate),
+                location = forecasttools::us_location_recode(jurisdiction, 'abbr', 'code'),
+                value = as.numeric(totalconfc19newadm)
+              )
             target_file <- fs::path(output_dir, paste0(ref_date, '_covid_target_hospital_admissions_data.csv'))
             readr::write_csv(target_data, target_file)
             cli::cli_inform('File saved as: {target_file}')
@@ -100,6 +106,8 @@ jobs:
               population_data = pop_data
             )
           "
+          # generate web text
+          Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
 
       - name: "Commit Changes"
         uses: EndBug/add-and-commit@v9
