@@ -99,7 +99,7 @@ jobs:
           "
           # generate web text
           Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
-  env:
+        env:
           NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
 
