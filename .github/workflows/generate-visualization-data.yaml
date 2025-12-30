@@ -98,9 +98,9 @@ jobs:
             # )
           "
 
-          Rscript covid19_forecast_hub/src/get_forecast_data.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "." --horizons-to-include 0 1 2
+          Rscript covid19_forecast_hub/src/get_forecast_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
 
-          Rscript covid19_forecast_hub/src/get_map_data.R --reference-date "$REF_DATE" --base-hub-path "covid19_forecast_hub/" --hub-reports-path "." --horizons-to-include 0 1 2
+          Rscript covid19_forecast_hub/src/get_map_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
 
           # generate web text
           Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
