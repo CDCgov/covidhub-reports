@@ -69,7 +69,9 @@ jobs:
             fs::dir_create(output_dir)
             cli::cli_inform('Directory is ready: {output_dir}')
 
-            target_data <- forecasttools::pull_nhsn_hrd() |>
+            target_data <- forecasttools::pull_data_cdc_gov_dataset(
+              dataset = 'nhsn_hrd_prelim'
+            ) |>
               dplyr::filter(disease == 'covid') |>
               dplyr::select(date, location, value = totalconfc19newadm)
             target_file <- fs::path(output_dir, paste0(ref_date, '_covid_target_hospital_admissions_data.csv'))
