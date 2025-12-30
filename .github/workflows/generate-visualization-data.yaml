@@ -50,7 +50,6 @@ jobs:
             argparser
             RcppTOML
             github::hubverse-org/hubData
-            github::cdcgov/hubhelpr
             github::cdcgov/forecasttools
 
       - name: "Generate Data Files"
@@ -63,42 +62,12 @@ jobs:
           echo "Using reference date: $REF_DATE"
 
           Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
-          # generate ensemble and all models summaries
-          Rscript -e "
-            ref_date <- '$REF_DATE'
-            base_hub_path <- 'covid19-forecast-hub/'
-            hub_reports_path <- '.'
-            disease <- 'covid'
-            horizons <- c(0, 1, 2)
-
-            pop_data <- readr::read_csv(
-              fs::path(base_hub_path, 'auxiliary-data', 'locations_with_2023_census_pop.csv'),
-              show_col_types = FALSE
-            ) |>
-              dplyr::select(location, population)
-
-            # generate ensemble summary
-            hubhelpr::write_ref_date_summary_ens(
-              reference_date = ref_date,
-              base_hub_path = base_hub_path,
-              hub_reports_path = hub_reports_path,
-              disease = disease,
-              horizons_to_include = horizons,
-              population_data = pop_data
-            )
-
-            # generate all models summary
-            hubhelpr::write_ref_date_summary_all(
-              reference_date = ref_date,
-              base_hub_path = base_hub_path,
-              hub_reports_path = hub_reports_path,
-              disease = disease,
-              horizons_to_include = horizons,
-              population_data = pop_data
-            )
-          "
-          # generate web text
+          Rscript covid19-forecast-hub/src/get_forecast_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
+          Rscript covid19-forecast-hub/src/get_map_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
           Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
+        env:
+          NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
+          NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
 
       - name: "Commit Changes"
         uses: EndBug/add-and-commit@v9
