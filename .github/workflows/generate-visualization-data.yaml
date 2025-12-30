@@ -47,6 +47,9 @@ jobs:
         with:
           pak-version: "devel"
           packages: |
+            argparser
+            RcppTOML
+            github::hubverse-org/hubData
             github::cdcgov/hubhelpr
             github::cdcgov/forecasttools
 
@@ -58,7 +61,7 @@ jobs:
             REF_DATE=$(Rscript -e "cat(strftime(lubridate::ceiling_date(lubridate::today(), 'week', week_start = 6, change_on_boundary = FALSE)))")
           fi
           echo "Using reference date: $REF_DATE"
-          
+
           Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
           # generate ensemble and all models summaries
           Rscript -e "
