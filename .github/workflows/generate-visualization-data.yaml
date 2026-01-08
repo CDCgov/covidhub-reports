@@ -64,50 +64,7 @@ jobs:
 
           Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
 
-          # generate ensemble and all models summaries
-          Rscript -e "
-            ref_date <- '$REF_DATE'
-            base_hub_path <- 'covid19-forecast-hub/'
-            hub_reports_path <- '.'
-            disease <- 'covid'
-            horizons <- c(0, 1, 2)
-
-            pop_data <- readr::read_csv(
-              fs::path(base_hub_path, 'auxiliary-data', 'locations_with_2023_census_pop.csv'),
-              show_col_types = FALSE
-            ) |>
-              dplyr::select(location, population)
-
-            # generate ensemble summary
-            hubhelpr::write_ref_date_summary_ens(
-              reference_date = ref_date,
-              base_hub_path = base_hub_path,
-              hub_reports_path = hub_reports_path,
-              disease = disease,
-              horizons_to_include = horizons,
-              population_data = pop_data,
-              targets = 'wk inc covid hosp'
-            )
-
-            # generate all models summary
-            hubhelpr::write_ref_date_summary_all(
-              reference_date = ref_date,
-              base_hub_path = base_hub_path,
-              hub_reports_path = hub_reports_path,
-              disease = disease,
-              horizons_to_include = horizons,
-              population_data = pop_data,
-              targets = 'wk inc covid hosp'
-            )
-
-            # generate web text
-            hubhelpr::write_webtext(
-              reference_date = ref_date,
-              disease = disease,
-              base_hub_path = base_hub_path,
-              hub_reports_path = hub_reports_path
-            )
-          "
+          Rscript src/generate_visualization_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
         env:
           NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
