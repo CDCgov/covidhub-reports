@@ -64,7 +64,7 @@ jobs:
 
           Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
 
-          Rscript src/generate_visualization_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
+          Rscript src/generate_visualization_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --disease "covid" --horizons 0 1 2 --target "wk inc covid hosp"
         env:
           NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
