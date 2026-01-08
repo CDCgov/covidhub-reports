@@ -63,6 +63,7 @@ jobs:
           echo "Using reference date: $REF_DATE"
 
           Rscript covid19-forecast-hub/src/get_target_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --target-data FALSE
+
           # generate ensemble and all models summaries
           Rscript -e "
             ref_date <- '$REF_DATE'
