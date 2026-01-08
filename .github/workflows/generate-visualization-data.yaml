@@ -51,6 +51,7 @@ jobs:
             RcppTOML
             github::hubverse-org/hubData
             github::cdcgov/forecasttools
+            github::cdcgov/hubhelpr
 
       - name: "Generate Data Files"
         run: |
@@ -77,32 +78,35 @@ jobs:
               dplyr::select(location, population)
 
             # generate ensemble summary
-            # hubhelpr::write_ref_date_summary_ens(
-            #   reference_date = ref_date,
-            #   base_hub_path = base_hub_path,
-            #   hub_reports_path = hub_reports_path,
-            #   disease = disease,
-            #   horizons_to_include = horizons,
-            #   population_data = pop_data
-            # )
+            hubhelpr::write_ref_date_summary_ens(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data,
+              targets = 'wk inc covid hosp'
+            )
 
             # generate all models summary
-            # hubhelpr::write_ref_date_summary_all(
-            #   reference_date = ref_date,
-            #   base_hub_path = base_hub_path,
-            #   hub_reports_path = hub_reports_path,
-            #   disease = disease,
-            #   horizons_to_include = horizons,
-            #   population_data = pop_data
-            # )
+            hubhelpr::write_ref_date_summary_all(
+              reference_date = ref_date,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path,
+              disease = disease,
+              horizons_to_include = horizons,
+              population_data = pop_data,
+              targets = 'wk inc covid hosp'
+            )
+
+            # generate web text
+            hubhelpr::write_webtext(
+              reference_date = ref_date,
+              disease = disease,
+              base_hub_path = base_hub_path,
+              hub_reports_path = hub_reports_path
+            )
           "
-
-          Rscript covid19_forecast_hub/src/get_forecast_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
-
-          Rscript covid19_forecast_hub/src/get_map_data.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "." --horizons-to-include 0 1 2
-
-          # generate web text
-          Rscript covid19-forecast-hub/src/get_webtext.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub/" --hub-reports-path "."
         env:
           NHSN_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           NHSN_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
