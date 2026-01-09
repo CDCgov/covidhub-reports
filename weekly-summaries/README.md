@@ -33,7 +33,7 @@ __Map Component__ (`YYYY-MM-DD_{disease}_map_data.csv`)
 _Contains data from the ensemble COVID or RSV forecast for all states (including US, DC and Puerto Rico) and for 7 and 14 day forecast targets_
 
 
-* `location_name` (string): state name column. Includes US (Ex: Alabama)
+* `location_name` (string): **[UPDATED]** state name column. Note: US is spelled out in this version (Ex: Alabama, United States)
 * `model` (string): the ensemble model name (Ex: CovidHub-ensemble)
 * `quantile_0.025_per100k` (numeric): 0.025 quantile forecast value as a rate per 100k (Ex: 1.12777351608532)
 * `quantile_0.5_per100k` (numeric) 0.5 quantile forecast value as a rate per 100k
@@ -47,7 +47,7 @@ _Contains data from the ensemble COVID or RSV forecast for all states (including
 * `quantile_0.025_count_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer (Ex: 3755)
 * `quantile_0.5_count_rounded` (numeric) 0.5 quantile forecast value, rounded up to the nearest integer
 * `quantile_0.975_count_rounded` (numeric) 0.975 quantile forecast value, rounded up to the nearest integer
-* `target` (string): description of forecast target date (Ex: 7 day ahead inc hosp)
+* `target` (string): description of forecast target date (Ex: wk inc covid hosp)
 * `target_end_date` (date): target date for the forecast (Ex: 2024-11-30)
 * `reference_date` (date): date that the forecast was generated (Ex: 2024-11-23)
 * `target_end_date_formatted` (string): target date for the forecast, prettily re-formatted as a string (Ex: “November 30, 2024”)
@@ -57,7 +57,7 @@ __Timeseries Component__ (`YYYY-MM-DD_{disease}_forecasts_data.csv`):
 
 _Contains all the available COVID or RSV models submitted in a given week for all states (including US, DC and Puerto Rico)._
 
-* `location_name` (string): full state name for the forecast` (note: US is not spelled out) (Ex: Alabama, US)
+* `location_name` (string): **[UPDATED]** full state name for the forecast. Note: US is spelled out in this version (Ex: Alabama, United States)
 * `abbreviation` (string): abbreviated state name (Ex: AL)
 * `horizon` (numeric): time horizon for the forecast. Currently using time horizons 0, 1, 2, 3 (Ex: 2)
 * `forecast_date` (date): date that forecast was generated (Ex: 2024-11-23)
@@ -83,7 +83,7 @@ _Contains the most recent observed COVID or RSV hospitalization and proportion o
 
 * `week_ending_date` (date): week ending date of observed data per row (Ex: 2024-11-16)
 * `location` (string): two-digit FIPS code associated with each state (Ex: 06)
-* `location_name` (string): spelled out state name` (note: US is not spelled out) (Ex: California, US)
+* `location_name` (string): **[UPDATED]** spelled out state name (note: US is spelled out) (Ex: California, United States)
 * `target` (string): **[NEW]** description of the truth data target (Ex: "wk inc {disease} hosp")
 * `value` (numeric): number of hospital admissions or proportion of ED visits; Hospital admissions should be an integer (Ex: 3); proportion of ED visits should be of form 0.**
 
