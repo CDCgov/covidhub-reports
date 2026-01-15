@@ -35,19 +35,19 @@ _Contains data from the ensemble COVID or RSV forecast for all states (including
 
 * `location_name` (string): **[UPDATED]** state name column. Note: US is spelled out in this version (Ex: Alabama, United States)
 * `model` (string): the ensemble model name (Ex: CovidHub-ensemble)
-* `quantile_0.025_per100k` (numeric): 0.025 quantile forecast value as a rate per 100k (Ex: 1.12777351608532)
-* `quantile_0.5_per100k` (numeric) 0.5 quantile forecast value as a rate per 100k
-* `quantile_0.975_per100k` (numeric) 0.975 quantile forecast value as a rate per 100k
-* `quantile_0.025_count` (numeric): 0.025 quantile forecast value (Ex: 3754.07763671875)
-* `quantile_0.5_count` (numeric) 0.5 quantile forecast value
-* `quantile_0.975_count` (numeric) 0.975 quantile forecast value
-* `quantile_0.025_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places (Ex: 3.57)
-* `quantile_0.5_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places
-* `quantile_0.975_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places
-* `quantile_0.025_count_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer (Ex: 3755)
-* `quantile_0.5_count_rounded` (numeric) 0.5 quantile forecast value, rounded up to the nearest integer
-* `quantile_0.975_count_rounded` (numeric) 0.975 quantile forecast value, rounded up to the nearest integer
-* `target` (string): description of forecast target date (Ex: wk inc covid hosp)
+* `quantile_0.025_per100k` (numeric): 0.025 quantile forecast value as a rate per 100k, not calculated for proportion ED visits target (Ex: 1.12777351608532, NA)
+* `quantile_0.5_per100k` (numeric) 0.5 quantile forecast value as a rate per 100k, not calculated for proportion ED visits target
+* `quantile_0.975_per100k` (numeric) 0.975 quantile forecast value as a rate per 100k, not calculated for proportion ED visits target
+* `quantile_0.025` (numeric): 0.025 quantile forecast value (Ex: 3754.07763671875)
+* `quantile_0.5` (numeric) 0.5 quantile forecast value
+* `quantile_0.975` (numeric) 0.975 quantile forecast value
+* `quantile_0.025_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places (Ex: 3.57). Not calculated for proportion ED visits target
+* `quantile_0.5_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places. Not calculated for proportion ED visits target
+* `quantile_0.975_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places. Not calculated for proportion ED visits target
+* `quantile_0.025_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion (Ex: 3755)
+* `quantile_0.5_rounded` (numeric) 0.5 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.975_rounded` (numeric) 0.975 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `target` (string): description of forecast target date (Ex: wk inc covid/rsv hosp, or wk inc covid/rsv prop ed visits)
 * `target_end_date` (date): target date for the forecast (Ex: 2024-11-30)
 * `reference_date` (date): date that the forecast was generated (Ex: 2024-11-23)
 * `target_end_date_formatted` (string): target date for the forecast, prettily re-formatted as a string (Ex: “November 30, 2024”)
@@ -62,18 +62,18 @@ _Contains all the available COVID or RSV models submitted in a given week for al
 * `horizon` (numeric): time horizon for the forecast. Currently using time horizons 0, 1, 2, 3 (Ex: 2)
 * `forecast_date` (date): date that forecast was generated (Ex: 2024-11-23)
 * `target_end_date` (date): target date for forecast (Ex: 2024-11-30)
-* `target` (string): **[NEW]** description of forecast target (Ex: "wk inc {disease} hosp")
+* `target` (string): **[NEW]** description of forecast target  (Ex: wk inc covid/rsv hosp, or wk inc covid/rsv prop ed visits)
 * `model` (string): name of the model, pulled from the folder names in the model-output section of the forecast repos (Ex: FluSight-ensemble, CEPH-Rtrend_fluH)
 * `quantile_0.025` (numeric): 0.025 quantile forecast value (Ex: 922.475)
 * `quantile_0.25` (numeric): 0.25 quantile forecast value
 * `quantile_0.5` (numeric): 0.5 quantile forecast value
 * `quantile_0.75` (numeric): 0.75 quantile forecast value
 * `quantile_0.975` (numeric): 0.975 quantile forecast value
-* `quantile_0.025_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer (Ex: 923)
-* `quantile_0.25_rounded` (numeric): 0.25 quantile forecast value, rounded up to the nearest integer
-* `quantile_0.5_rounded` (numeric): 0.5 quantile forecast value, rounded up to the nearest integer
-* `quantile_0.75_rounded` (numeric): 0.75 quantile forecast value, rounded up to the nearest integer
-* `quantile_0.975_rounded` (numeric): 0.975 quantile forecast value, rounded up to the nearest integer
+* `quantile_0.025_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion (Ex: 923)
+* `quantile_0.25_rounded` (numeric): 0.25 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.5_rounded` (numeric): 0.5 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.75_rounded` (numeric): 0.75 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.975_rounded` (numeric): 0.975 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
 * `forecast_teams` (string): name of the team that generated the model; pulled from model metadata (Ex: CEPH Lab at Indiana University)
 * `forecast_fullnames` (string): full name of the model; pulled from model metadata (Ex: Rtrend COVID)
 
