@@ -48,6 +48,7 @@ _Contains data from the ensemble COVID or RSV forecast for all states (including
 * `quantile_0.5_rounded` (numeric): 0.5 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
 * `quantile_0.975_rounded` (numeric): 0.975 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
 * `target` (string): description of forecast target date (Ex: wk inc covid/rsv hosp, or wk inc covid/rsv prop ed visits)
+* `target_data_type` (string): type of target (Ex: hosp (Hospital admissions) or ed_visits (Proportion of Emergency department visits) without the disease string)
 * `target_end_date` (date): target date for the forecast (Ex: 2024-11-30)
 * `reference_date` (date): date that the forecast was generated (Ex: 2024-11-23)
 * `target_end_date_formatted` (string): target date for the forecast, prettily re-formatted as a string (Ex: “November 30, 2024”)
@@ -63,6 +64,7 @@ _Contains all the available COVID or RSV models submitted in a given week for al
 * `forecast_date` (date): date that forecast was generated (Ex: 2024-11-23)
 * `target_end_date` (date): target date for forecast (Ex: 2024-11-30)
 * `target` (string): description of forecast target  (Ex: wk inc covid/rsv hosp, or wk inc covid/rsv prop ed visits)
+* `target_data_type` (string): type of target (Ex: hosp (Hospital admissions) or ed_visits (Proportion of Emergency department visits) without the disease string)
 * `model` (string): name of the model, pulled from the folder names in the model-output section of the forecast repos (Ex: FluSight-ensemble, CEPH-Rtrend_fluH)
 * `quantile_0.025` (numeric): 0.025 quantile forecast value (Ex: 922.475)
 * `quantile_0.25` (numeric): 0.25 quantile forecast value
@@ -85,6 +87,7 @@ _Contains the most recent observed COVID or RSV hospitalization and proportion o
 * `location` (string): two-digit FIPS code associated with each state (Ex: 06)
 * `location_name` (string): spelled out state name (note: US is spelled out) (Ex: California, United States)
 * `target` (string): description of the truth data target (Ex: "wk inc disease hosp")
+* `target_data_type` (string): type of target (Ex: hosp (Hospital admissions) or ed_visits (Proportion of Emergency department visits) without the disease string)
 * `value` (numeric): number of hospital admissions or proportion of ED visits; Hospital admissions should be an integer (Ex: 3); proportion of ED visits should be of form 0.**
 
 __Webtext data__ (`YYYY-MM-DD_{disease}_webtext.md`)
