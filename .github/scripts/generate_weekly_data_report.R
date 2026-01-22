@@ -47,16 +47,14 @@ hubhelpr::write_ref_date_summary_ens(
   reference_date = ref_date,
   base_hub_path = base_hub_path,
   hub_reports_path = hub_reports_path,
-  disease = disease,
-  horizons_to_include = horizons
+  disease = disease
 )
 
 hubhelpr::write_ref_date_summary_all(
   reference_date = ref_date,
   base_hub_path = base_hub_path,
   hub_reports_path = hub_reports_path,
-  disease = disease,
-  horizons_to_include = horizons
+  disease = disease
 )
 
 hubhelpr::write_viz_target_data(
