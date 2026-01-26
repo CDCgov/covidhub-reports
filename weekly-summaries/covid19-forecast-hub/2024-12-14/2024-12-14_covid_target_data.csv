@@ -1,0 +1,266 @@
+week_ending_date,location,location_name,target,target_data_type,value
+2024-11-09,01,Alabama,wk inc covid hosp,hosp,115
+2024-11-09,02,Alaska,wk inc covid hosp,hosp,13
+2024-11-09,04,Arizona,wk inc covid hosp,hosp,515
+2024-11-09,05,Arkansas,wk inc covid hosp,hosp,61
+2024-11-09,06,California,wk inc covid hosp,hosp,615
+2024-11-09,08,Colorado,wk inc covid hosp,hosp,145
+2024-11-09,09,Connecticut,wk inc covid hosp,hosp,82
+2024-11-09,10,Delaware,wk inc covid hosp,hosp,20
+2024-11-09,11,District of Columbia,wk inc covid hosp,hosp,11
+2024-11-09,12,Florida,wk inc covid hosp,hosp,419
+2024-11-09,13,Georgia,wk inc covid hosp,hosp,89
+2024-11-09,15,Hawaii,wk inc covid hosp,hosp,22
+2024-11-09,16,Idaho,wk inc covid hosp,hosp,35
+2024-11-09,17,Illinois,wk inc covid hosp,hosp,232
+2024-11-09,18,Indiana,wk inc covid hosp,hosp,185
+2024-11-09,19,Iowa,wk inc covid hosp,hosp,49
+2024-11-09,20,Kansas,wk inc covid hosp,hosp,62
+2024-11-09,21,Kentucky,wk inc covid hosp,hosp,126
+2024-11-09,22,Louisiana,wk inc covid hosp,hosp,76
+2024-11-09,23,Maine,wk inc covid hosp,hosp,36
+2024-11-09,24,Maryland,wk inc covid hosp,hosp,99
+2024-11-09,25,Massachusetts,wk inc covid hosp,hosp,217
+2024-11-09,26,Michigan,wk inc covid hosp,hosp,628
+2024-11-09,27,Minnesota,wk inc covid hosp,hosp,203
+2024-11-09,28,Mississippi,wk inc covid hosp,hosp,38
+2024-11-09,29,Missouri,wk inc covid hosp,hosp,153
+2024-11-09,30,Montana,wk inc covid hosp,hosp,18
+2024-11-09,31,Nebraska,wk inc covid hosp,hosp,32
+2024-11-09,32,Nevada,wk inc covid hosp,hosp,47
+2024-11-09,33,New Hampshire,wk inc covid hosp,hosp,55
+2024-11-09,34,New Jersey,wk inc covid hosp,hosp,186
+2024-11-09,35,New Mexico,wk inc covid hosp,hosp,91
+2024-11-09,36,New York,wk inc covid hosp,hosp,423
+2024-11-09,37,North Carolina,wk inc covid hosp,hosp,200
+2024-11-09,38,North Dakota,wk inc covid hosp,hosp,15
+2024-11-09,39,Ohio,wk inc covid hosp,hosp,399
+2024-11-09,40,Oklahoma,wk inc covid hosp,hosp,63
+2024-11-09,41,Oregon,wk inc covid hosp,hosp,77
+2024-11-09,42,Pennsylvania,wk inc covid hosp,hosp,899
+2024-11-09,44,Rhode Island,wk inc covid hosp,hosp,29
+2024-11-09,45,South Carolina,wk inc covid hosp,hosp,77
+2024-11-09,46,South Dakota,wk inc covid hosp,hosp,30
+2024-11-09,47,Tennessee,wk inc covid hosp,hosp,121
+2024-11-09,48,Texas,wk inc covid hosp,hosp,347
+2024-11-09,49,Utah,wk inc covid hosp,hosp,43
+2024-11-09,50,Vermont,wk inc covid hosp,hosp,21
+2024-11-09,51,Virginia,wk inc covid hosp,hosp,126
+2024-11-09,53,Washington,wk inc covid hosp,hosp,97
+2024-11-09,54,West Virginia,wk inc covid hosp,hosp,62
+2024-11-09,55,Wisconsin,wk inc covid hosp,hosp,158
+2024-11-09,56,Wyoming,wk inc covid hosp,hosp,61
+2024-11-09,72,Puerto Rico,wk inc covid hosp,hosp,9
+2024-11-09,US,United States,wk inc covid hosp,hosp,7932
+2024-11-16,01,Alabama,wk inc covid hosp,hosp,83
+2024-11-16,02,Alaska,wk inc covid hosp,hosp,10
+2024-11-16,04,Arizona,wk inc covid hosp,hosp,674
+2024-11-16,05,Arkansas,wk inc covid hosp,hosp,46
+2024-11-16,06,California,wk inc covid hosp,hosp,663
+2024-11-16,08,Colorado,wk inc covid hosp,hosp,163
+2024-11-16,09,Connecticut,wk inc covid hosp,hosp,70
+2024-11-16,10,Delaware,wk inc covid hosp,hosp,18
+2024-11-16,11,District of Columbia,wk inc covid hosp,hosp,17
+2024-11-16,12,Florida,wk inc covid hosp,hosp,332
+2024-11-16,13,Georgia,wk inc covid hosp,hosp,80
+2024-11-16,15,Hawaii,wk inc covid hosp,hosp,20
+2024-11-16,16,Idaho,wk inc covid hosp,hosp,22
+2024-11-16,17,Illinois,wk inc covid hosp,hosp,202
+2024-11-16,18,Indiana,wk inc covid hosp,hosp,145
+2024-11-16,19,Iowa,wk inc covid hosp,hosp,40
+2024-11-16,20,Kansas,wk inc covid hosp,hosp,45
+2024-11-16,21,Kentucky,wk inc covid hosp,hosp,97
+2024-11-16,22,Louisiana,wk inc covid hosp,hosp,68
+2024-11-16,23,Maine,wk inc covid hosp,hosp,25
+2024-11-16,24,Maryland,wk inc covid hosp,hosp,67
+2024-11-16,25,Massachusetts,wk inc covid hosp,hosp,295
+2024-11-16,26,Michigan,wk inc covid hosp,hosp,650
+2024-11-16,27,Minnesota,wk inc covid hosp,hosp,193
+2024-11-16,28,Mississippi,wk inc covid hosp,hosp,37
+2024-11-16,29,Missouri,wk inc covid hosp,hosp,150
+2024-11-16,30,Montana,wk inc covid hosp,hosp,22
+2024-11-16,31,Nebraska,wk inc covid hosp,hosp,39
+2024-11-16,32,Nevada,wk inc covid hosp,hosp,56
+2024-11-16,33,New Hampshire,wk inc covid hosp,hosp,58
+2024-11-16,34,New Jersey,wk inc covid hosp,hosp,193
+2024-11-16,35,New Mexico,wk inc covid hosp,hosp,81
+2024-11-16,36,New York,wk inc covid hosp,hosp,379
+2024-11-16,37,North Carolina,wk inc covid hosp,hosp,188
+2024-11-16,38,North Dakota,wk inc covid hosp,hosp,11
+2024-11-16,39,Ohio,wk inc covid hosp,hosp,338
+2024-11-16,40,Oklahoma,wk inc covid hosp,hosp,73
+2024-11-16,41,Oregon,wk inc covid hosp,hosp,73
+2024-11-16,42,Pennsylvania,wk inc covid hosp,hosp,1018
+2024-11-16,44,Rhode Island,wk inc covid hosp,hosp,21
+2024-11-16,45,South Carolina,wk inc covid hosp,hosp,69
+2024-11-16,46,South Dakota,wk inc covid hosp,hosp,36
+2024-11-16,47,Tennessee,wk inc covid hosp,hosp,159
+2024-11-16,48,Texas,wk inc covid hosp,hosp,231
+2024-11-16,49,Utah,wk inc covid hosp,hosp,47
+2024-11-16,50,Vermont,wk inc covid hosp,hosp,11
+2024-11-16,51,Virginia,wk inc covid hosp,hosp,104
+2024-11-16,53,Washington,wk inc covid hosp,hosp,83
+2024-11-16,54,West Virginia,wk inc covid hosp,hosp,64
+2024-11-16,55,Wisconsin,wk inc covid hosp,hosp,149
+2024-11-16,56,Wyoming,wk inc covid hosp,hosp,48
+2024-11-16,72,Puerto Rico,wk inc covid hosp,hosp,25
+2024-11-16,US,United States,wk inc covid hosp,hosp,7791
+2024-11-23,01,Alabama,wk inc covid hosp,hosp,71
+2024-11-23,02,Alaska,wk inc covid hosp,hosp,8
+2024-11-23,04,Arizona,wk inc covid hosp,hosp,778
+2024-11-23,05,Arkansas,wk inc covid hosp,hosp,52
+2024-11-23,06,California,wk inc covid hosp,hosp,632
+2024-11-23,08,Colorado,wk inc covid hosp,hosp,150
+2024-11-23,09,Connecticut,wk inc covid hosp,hosp,79
+2024-11-23,10,Delaware,wk inc covid hosp,hosp,20
+2024-11-23,11,District of Columbia,wk inc covid hosp,hosp,24
+2024-11-23,12,Florida,wk inc covid hosp,hosp,257
+2024-11-23,13,Georgia,wk inc covid hosp,hosp,76
+2024-11-23,15,Hawaii,wk inc covid hosp,hosp,13
+2024-11-23,16,Idaho,wk inc covid hosp,hosp,21
+2024-11-23,17,Illinois,wk inc covid hosp,hosp,254
+2024-11-23,18,Indiana,wk inc covid hosp,hosp,166
+2024-11-23,19,Iowa,wk inc covid hosp,hosp,52
+2024-11-23,20,Kansas,wk inc covid hosp,hosp,56
+2024-11-23,21,Kentucky,wk inc covid hosp,hosp,95
+2024-11-23,22,Louisiana,wk inc covid hosp,hosp,69
+2024-11-23,23,Maine,wk inc covid hosp,hosp,21
+2024-11-23,24,Maryland,wk inc covid hosp,hosp,86
+2024-11-23,25,Massachusetts,wk inc covid hosp,hosp,368
+2024-11-23,26,Michigan,wk inc covid hosp,hosp,462
+2024-11-23,27,Minnesota,wk inc covid hosp,hosp,225
+2024-11-23,28,Mississippi,wk inc covid hosp,hosp,50
+2024-11-23,29,Missouri,wk inc covid hosp,hosp,175
+2024-11-23,30,Montana,wk inc covid hosp,hosp,26
+2024-11-23,31,Nebraska,wk inc covid hosp,hosp,36
+2024-11-23,32,Nevada,wk inc covid hosp,hosp,31
+2024-11-23,33,New Hampshire,wk inc covid hosp,hosp,20
+2024-11-23,34,New Jersey,wk inc covid hosp,hosp,210
+2024-11-23,35,New Mexico,wk inc covid hosp,hosp,116
+2024-11-23,36,New York,wk inc covid hosp,hosp,405
+2024-11-23,37,North Carolina,wk inc covid hosp,hosp,157
+2024-11-23,38,North Dakota,wk inc covid hosp,hosp,19
+2024-11-23,39,Ohio,wk inc covid hosp,hosp,322
+2024-11-23,40,Oklahoma,wk inc covid hosp,hosp,70
+2024-11-23,41,Oregon,wk inc covid hosp,hosp,57
+2024-11-23,42,Pennsylvania,wk inc covid hosp,hosp,1027
+2024-11-23,44,Rhode Island,wk inc covid hosp,hosp,30
+2024-11-23,45,South Carolina,wk inc covid hosp,hosp,72
+2024-11-23,46,South Dakota,wk inc covid hosp,hosp,31
+2024-11-23,47,Tennessee,wk inc covid hosp,hosp,98
+2024-11-23,48,Texas,wk inc covid hosp,hosp,257
+2024-11-23,49,Utah,wk inc covid hosp,hosp,64
+2024-11-23,50,Vermont,wk inc covid hosp,hosp,21
+2024-11-23,51,Virginia,wk inc covid hosp,hosp,116
+2024-11-23,53,Washington,wk inc covid hosp,hosp,89
+2024-11-23,54,West Virginia,wk inc covid hosp,hosp,150
+2024-11-23,55,Wisconsin,wk inc covid hosp,hosp,148
+2024-11-23,56,Wyoming,wk inc covid hosp,hosp,31
+2024-11-23,72,Puerto Rico,wk inc covid hosp,hosp,24
+2024-11-23,US,United States,wk inc covid hosp,hosp,7887
+2024-11-30,01,Alabama,wk inc covid hosp,hosp,91
+2024-11-30,02,Alaska,wk inc covid hosp,hosp,5
+2024-11-30,04,Arizona,wk inc covid hosp,hosp,744
+2024-11-30,05,Arkansas,wk inc covid hosp,hosp,57
+2024-11-30,06,California,wk inc covid hosp,hosp,675
+2024-11-30,08,Colorado,wk inc covid hosp,hosp,169
+2024-11-30,09,Connecticut,wk inc covid hosp,hosp,68
+2024-11-30,10,Delaware,wk inc covid hosp,hosp,26
+2024-11-30,11,District of Columbia,wk inc covid hosp,hosp,11
+2024-11-30,12,Florida,wk inc covid hosp,hosp,257
+2024-11-30,13,Georgia,wk inc covid hosp,hosp,84
+2024-11-30,15,Hawaii,wk inc covid hosp,hosp,10
+2024-11-30,16,Idaho,wk inc covid hosp,hosp,16
+2024-11-30,17,Illinois,wk inc covid hosp,hosp,269
+2024-11-30,18,Indiana,wk inc covid hosp,hosp,156
+2024-11-30,19,Iowa,wk inc covid hosp,hosp,52
+2024-11-30,20,Kansas,wk inc covid hosp,hosp,49
+2024-11-30,21,Kentucky,wk inc covid hosp,hosp,91
+2024-11-30,22,Louisiana,wk inc covid hosp,hosp,64
+2024-11-30,23,Maine,wk inc covid hosp,hosp,25
+2024-11-30,24,Maryland,wk inc covid hosp,hosp,74
+2024-11-30,25,Massachusetts,wk inc covid hosp,hosp,368
+2024-11-30,26,Michigan,wk inc covid hosp,hosp,592
+2024-11-30,27,Minnesota,wk inc covid hosp,hosp,183
+2024-11-30,28,Mississippi,wk inc covid hosp,hosp,33
+2024-11-30,29,Missouri,wk inc covid hosp,hosp,166
+2024-11-30,30,Montana,wk inc covid hosp,hosp,17
+2024-11-30,31,Nebraska,wk inc covid hosp,hosp,41
+2024-11-30,32,Nevada,wk inc covid hosp,hosp,64
+2024-11-30,33,New Hampshire,wk inc covid hosp,hosp,44
+2024-11-30,34,New Jersey,wk inc covid hosp,hosp,187
+2024-11-30,35,New Mexico,wk inc covid hosp,hosp,122
+2024-11-30,36,New York,wk inc covid hosp,hosp,370
+2024-11-30,37,North Carolina,wk inc covid hosp,hosp,147
+2024-11-30,38,North Dakota,wk inc covid hosp,hosp,24
+2024-11-30,39,Ohio,wk inc covid hosp,hosp,331
+2024-11-30,40,Oklahoma,wk inc covid hosp,hosp,97
+2024-11-30,41,Oregon,wk inc covid hosp,hosp,43
+2024-11-30,42,Pennsylvania,wk inc covid hosp,hosp,639
+2024-11-30,44,Rhode Island,wk inc covid hosp,hosp,21
+2024-11-30,45,South Carolina,wk inc covid hosp,hosp,67
+2024-11-30,46,South Dakota,wk inc covid hosp,hosp,19
+2024-11-30,47,Tennessee,wk inc covid hosp,hosp,143
+2024-11-30,48,Texas,wk inc covid hosp,hosp,282
+2024-11-30,49,Utah,wk inc covid hosp,hosp,57
+2024-11-30,50,Vermont,wk inc covid hosp,hosp,12
+2024-11-30,51,Virginia,wk inc covid hosp,hosp,101
+2024-11-30,53,Washington,wk inc covid hosp,hosp,75
+2024-11-30,54,West Virginia,wk inc covid hosp,hosp,151
+2024-11-30,55,Wisconsin,wk inc covid hosp,hosp,133
+2024-11-30,56,Wyoming,wk inc covid hosp,hosp,47
+2024-11-30,72,Puerto Rico,wk inc covid hosp,hosp,78
+2024-11-30,US,United States,wk inc covid hosp,hosp,7648
+2024-12-07,01,Alabama,wk inc covid hosp,hosp,97
+2024-12-07,02,Alaska,wk inc covid hosp,hosp,16
+2024-12-07,04,Arizona,wk inc covid hosp,hosp,829
+2024-12-07,05,Arkansas,wk inc covid hosp,hosp,50
+2024-12-07,06,California,wk inc covid hosp,hosp,662
+2024-12-07,08,Colorado,wk inc covid hosp,hosp,180
+2024-12-07,09,Connecticut,wk inc covid hosp,hosp,93
+2024-12-07,10,Delaware,wk inc covid hosp,hosp,24
+2024-12-07,11,District of Columbia,wk inc covid hosp,hosp,14
+2024-12-07,12,Florida,wk inc covid hosp,hosp,266
+2024-12-07,13,Georgia,wk inc covid hosp,hosp,104
+2024-12-07,15,Hawaii,wk inc covid hosp,hosp,15
+2024-12-07,16,Idaho,wk inc covid hosp,hosp,29
+2024-12-07,17,Illinois,wk inc covid hosp,hosp,294
+2024-12-07,18,Indiana,wk inc covid hosp,hosp,253
+2024-12-07,19,Iowa,wk inc covid hosp,hosp,83
+2024-12-07,20,Kansas,wk inc covid hosp,hosp,70
+2024-12-07,21,Kentucky,wk inc covid hosp,hosp,120
+2024-12-07,22,Louisiana,wk inc covid hosp,hosp,76
+2024-12-07,23,Maine,wk inc covid hosp,hosp,20
+2024-12-07,24,Maryland,wk inc covid hosp,hosp,70
+2024-12-07,25,Massachusetts,wk inc covid hosp,hosp,413
+2024-12-07,26,Michigan,wk inc covid hosp,hosp,471
+2024-12-07,27,Minnesota,wk inc covid hosp,hosp,267
+2024-12-07,28,Mississippi,wk inc covid hosp,hosp,53
+2024-12-07,29,Missouri,wk inc covid hosp,hosp,130
+2024-12-07,30,Montana,wk inc covid hosp,hosp,30
+2024-12-07,31,Nebraska,wk inc covid hosp,hosp,73
+2024-12-07,32,Nevada,wk inc covid hosp,hosp,38
+2024-12-07,33,New Hampshire,wk inc covid hosp,hosp,59
+2024-12-07,34,New Jersey,wk inc covid hosp,hosp,187
+2024-12-07,35,New Mexico,wk inc covid hosp,hosp,117
+2024-12-07,36,New York,wk inc covid hosp,hosp,437
+2024-12-07,37,North Carolina,wk inc covid hosp,hosp,169
+2024-12-07,38,North Dakota,wk inc covid hosp,hosp,15
+2024-12-07,39,Ohio,wk inc covid hosp,hosp,370
+2024-12-07,40,Oklahoma,wk inc covid hosp,hosp,126
+2024-12-07,41,Oregon,wk inc covid hosp,hosp,48
+2024-12-07,42,Pennsylvania,wk inc covid hosp,hosp,626
+2024-12-07,44,Rhode Island,wk inc covid hosp,hosp,40
+2024-12-07,45,South Carolina,wk inc covid hosp,hosp,75
+2024-12-07,46,South Dakota,wk inc covid hosp,hosp,23
+2024-12-07,47,Tennessee,wk inc covid hosp,hosp,130
+2024-12-07,48,Texas,wk inc covid hosp,hosp,362
+2024-12-07,49,Utah,wk inc covid hosp,hosp,61
+2024-12-07,50,Vermont,wk inc covid hosp,hosp,12
+2024-12-07,51,Virginia,wk inc covid hosp,hosp,117
+2024-12-07,53,Washington,wk inc covid hosp,hosp,51
+2024-12-07,54,West Virginia,wk inc covid hosp,hosp,88
+2024-12-07,55,Wisconsin,wk inc covid hosp,hosp,181
+2024-12-07,56,Wyoming,wk inc covid hosp,hosp,42
+2024-12-07,72,Puerto Rico,wk inc covid hosp,hosp,103
+2024-12-07,US,United States,wk inc covid hosp,hosp,8283
