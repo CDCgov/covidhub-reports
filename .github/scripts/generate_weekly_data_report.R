@@ -26,21 +26,13 @@ parser <- argparser::add_argument(
   type = "character",
   help = "Disease name (e.g., 'covid' or 'rsv')."
 )
-parser <- argparser::add_argument(
-  parser,
-  "--horizons",
-  type = "integer",
-  nargs = Inf,
-  default = c(0, 1, 2),
-  help = "Horizons to include in the output."
-)
+
 
 args <- argparser::parse_args(parser)
-ref_date <- args$reference_date
+ref_date <- as.Date(args$reference_date)
 base_hub_path <- args$base_hub_path
 hub_reports_path <- args$hub_reports_path
 disease <- args$disease
-horizons <- args$horizons
 
 
 hubhelpr::write_ref_date_summary_ens(
@@ -61,5 +53,6 @@ hubhelpr::write_viz_target_data(
   reference_date = ref_date,
   base_hub_path = base_hub_path,
   hub_reports_path = hub_reports_path,
+  as_of = ref_date - lubridate::days(3),
   disease = disease
 )
