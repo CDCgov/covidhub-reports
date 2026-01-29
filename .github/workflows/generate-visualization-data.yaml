@@ -8,7 +8,7 @@ on:
         required: false
         type: string
   repository_dispatch:
-    types: [ensemble-added]
+    types: [covid-ensemble-added, rsv-ensemble-added]
 
 permissions:
   contents: write
