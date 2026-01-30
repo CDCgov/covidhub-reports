@@ -44,9 +44,9 @@ _Contains data from the ensemble COVID or RSV forecast for all states (including
 * `quantile_0.025_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places (Ex: 3.57). Not calculated for proportion ED visits target
 * `quantile_0.5_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places. Not calculated for proportion ED visits target
 * `quantile_0.975_per100k_rounded` (numeric): forecasted value as a rate per 100k, rounded to 2 places. Not calculated for proportion ED visits target
-* `quantile_0.025_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion (Ex: 3755)
-* `quantile_0.5_rounded` (numeric): 0.5 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
-* `quantile_0.975_rounded` (numeric): 0.975 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.025_rounded` (numeric): Rounded 0.025 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.5_rounded` (numeric): Rounded 0.5 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.975_rounded` (numeric): Rounded 0.975 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
 * `target` (string): description of forecast target date (Ex: wk inc covid/rsv hosp, or wk inc covid/rsv prop ed visits)
 * `target_data_type` (string): type of target (Ex: hosp (Hospital admissions) or ed_visits (Proportion of Emergency department visits) without the disease string)
 * `target_end_date` (date): target date for the forecast (Ex: 2024-11-30)
@@ -71,11 +71,11 @@ _Contains all the available COVID or RSV models submitted in a given week for al
 * `quantile_0.5` (numeric): 0.5 quantile forecast value
 * `quantile_0.75` (numeric): 0.75 quantile forecast value
 * `quantile_0.975` (numeric): 0.975 quantile forecast value
-* `quantile_0.025_rounded` (numeric): 0.025 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion (Ex: 923)
-* `quantile_0.25_rounded` (numeric): 0.25 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
-* `quantile_0.5_rounded` (numeric): 0.5 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
-* `quantile_0.75_rounded` (numeric): 0.75 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
-* `quantile_0.975_rounded` (numeric): 0.975 quantile forecast value, rounded up to the nearest integer for counts and rounded to 4 decimal places for proportion
+* `quantile_0.025_rounded` (numeric): Rounded 0.025 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.25_rounded` (numeric): Rounded 0.25 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.5_rounded` (numeric): Rounded 0.5 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.75_rounded` (numeric): Rounded 0.75 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
+* `quantile_0.975_rounded` (numeric): Rounded 0.975 quantile forecast value (see [Rounding Rules](#rounding-rules) for details)
 * `forecast_teams` (string): name of the team that generated the model; pulled from model metadata (Ex: CEPH Lab at Indiana University)
 * `forecast_fullnames` (string): full name of the model; pulled from model metadata (Ex: Rtrend COVID)
 
@@ -90,35 +90,13 @@ _Contains the most recent observed COVID or RSV hospitalization and proportion o
 * `target_data_type` (string): type of target (Ex: hosp (Hospital admissions) or ed_visits (Proportion of Emergency department visits) without the disease string)
 * `value` (numeric): number of hospital admissions or proportion of ED visits; Hospital admissions should be an integer (Ex: 3); proportion of ED visits should be of form 0.**
 
-__Webtext data__ (`YYYY-MM-DD_{disease}_webtext.md`)
 
-_Contains texts populating the public forecast pages._
+## Rounding Rules
 
-## Hospital Admissions
+For `quantile_**_rounded` values, different rounding rules apply based on data type and value:
 
-- The {`hub_name`} ensemble's one-week-ahead forecast predicts that the number of new weekly laboratory-confirmed {`disease`} hospital admissions will be approximately {`number of US hospitalizations from ensemble model, time horizon 2`} nationally, with {`lower 95% CI prediction for ensemble model`} to {`upper 95% CI prediction for ensemble model`} laboratory confirmed {`disease`} hospital admissions likely reported in the week ending {`week ending date for horizon 2 forecasts`}.
-
-- This is compared to the {`last reported hospitalizations`} admissions reported for the week ending {`last reported target date`}, the most recent week of reporting from U.S. hospitals.
-
-- Reported and forecasted new {`disease`} hospital admissions as of {`forecast_due_date`}.
-
-- The figure shows the number of new laboratory-confirmed {`disease`} hospital admissions reported in the United States each week from {`first_hospital_target_data_date`} through {`last_hoapital_target_data_date`} and forecasted new {`disease`} hospital admissions per week for this week and the next 2 weeks through {`target_end_date_2wk_ahead`}.
-
-- Reporting rate flag (only for hospital admissions target).
-
--	Contributing teams and models:
-{`list of teams and models contributing hospital admission forecasts as hyperlinks to the sites provided in the metadata`}
-
-
-## ED Visits
-
-- The {`hub_name`} ensemble's one-week-ahead forecast predicts that the percentage of new weekly {`disease`} emergency department visits will be approximately {`percent of US ed visits from ensemble model, time horizon 2`} nationally, with {`lower 95% CI prediction for ensemble model`} to {`upper 95% CI prediction for ensemble model`} laboratory confirmed {`disease`} emergency department visits likely reported in the week ending {`week ending date for horizon 2 forecasts`}.
-
-- This is compared to the {`last reported % ed visits`} visits reported for the week ending {`last reported target date`}, the most recent week of reporting from U.S. hospitals.
-
-- Reported and forecasted new {`disease`} emergency department visits as of {`forecast_due_date`}.
-
-- The figure shows the number of new laboratory-confirmed {`disease`} emergency department visits reported in the United States each week from {`first_ed_visits_target_data_date`} through {`last_ed_visits_target_data_date`} and forecasted new {`disease`} emergency department visits per week for this week and the next 2 weeks through {`target_end_date_2wk_ahead`}.
-
--	Contributing teams and models:
-{`list of teams and models contributing emergency department visits forecasts as hyperlinks to the sites provided in the metadata`}
+- **Hospital count data**:
+  - values > 1000: rounded up to nearest hundreds
+  - 10 < values < 1000: rounded up to nearest tens
+  - values < 10: rounded up to nearest integer
+- **ED visits proportion data**: rounded to 2 significant figures

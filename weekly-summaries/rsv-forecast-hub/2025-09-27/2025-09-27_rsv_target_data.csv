@@ -7023,419 +7023,6 @@ week_ending_date,location,location_name,target,target_data_type,value
 2025-08-30,01,Alabama,wk inc rsv hosp,hosp,6
 2025-08-30,01,Alabama,wk inc rsv prop ed visits,prop_ed,6e-4
 2025-08-30,02,Alaska,wk inc rsv hosp,hosp,0
-2025-08-30,02,Alaska,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,04,Arizona,wk inc rsv hosp,hosp,0
-2025-08-30,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,05,Arkansas,wk inc rsv hosp,hosp,1
-2025-08-30,05,Arkansas,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,06,California,wk inc rsv hosp,hosp,11
-2025-08-30,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,08,Colorado,wk inc rsv hosp,hosp,0
-2025-08-30,08,Colorado,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,09,Connecticut,wk inc rsv hosp,hosp,2
-2025-08-30,09,Connecticut,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,10,Delaware,wk inc rsv hosp,hosp,0
-2025-08-30,10,Delaware,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-08-30,11,District of Columbia,wk inc rsv hosp,hosp,0
-2025-08-30,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,7e-4
-2025-08-30,12,Florida,wk inc rsv hosp,hosp,86
-2025-08-30,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0011
-2025-08-30,13,Georgia,wk inc rsv hosp,hosp,15
-2025-08-30,13,Georgia,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-08-30,15,Hawaii,wk inc rsv hosp,hosp,2
-2025-08-30,15,Hawaii,wk inc rsv prop ed visits,prop_ed,7e-4
-2025-08-30,16,Idaho,wk inc rsv hosp,hosp,0
-2025-08-30,16,Idaho,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,17,Illinois,wk inc rsv hosp,hosp,3
-2025-08-30,17,Illinois,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,18,Indiana,wk inc rsv hosp,hosp,4
-2025-08-30,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,19,Iowa,wk inc rsv hosp,hosp,1
-2025-08-30,19,Iowa,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,20,Kansas,wk inc rsv hosp,hosp,1
-2025-08-30,20,Kansas,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,21,Kentucky,wk inc rsv hosp,hosp,1
-2025-08-30,21,Kentucky,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,22,Louisiana,wk inc rsv hosp,hosp,3
-2025-08-30,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,23,Maine,wk inc rsv hosp,hosp,0
-2025-08-30,23,Maine,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,24,Maryland,wk inc rsv hosp,hosp,0
-2025-08-30,24,Maryland,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,25,Massachusetts,wk inc rsv hosp,hosp,4
-2025-08-30,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,26,Michigan,wk inc rsv hosp,hosp,1
-2025-08-30,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,27,Minnesota,wk inc rsv hosp,hosp,3
-2025-08-30,27,Minnesota,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,28,Mississippi,wk inc rsv hosp,hosp,0
-2025-08-30,28,Mississippi,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,29,Missouri,wk inc rsv hosp,hosp,1
-2025-08-30,30,Montana,wk inc rsv hosp,hosp,0
-2025-08-30,30,Montana,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,31,Nebraska,wk inc rsv hosp,hosp,1
-2025-08-30,31,Nebraska,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,32,Nevada,wk inc rsv hosp,hosp,0
-2025-08-30,32,Nevada,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,33,New Hampshire,wk inc rsv hosp,hosp,1
-2025-08-30,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,34,New Jersey,wk inc rsv hosp,hosp,5
-2025-08-30,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,35,New Mexico,wk inc rsv hosp,hosp,0
-2025-08-30,35,New Mexico,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,36,New York,wk inc rsv hosp,hosp,19
-2025-08-30,36,New York,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,37,North Carolina,wk inc rsv hosp,hosp,4
-2025-08-30,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,38,North Dakota,wk inc rsv hosp,hosp,0
-2025-08-30,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,39,Ohio,wk inc rsv hosp,hosp,4
-2025-08-30,39,Ohio,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,40,Oklahoma,wk inc rsv hosp,hosp,0
-2025-08-30,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,41,Oregon,wk inc rsv hosp,hosp,0
-2025-08-30,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,42,Pennsylvania,wk inc rsv hosp,hosp,32
-2025-08-30,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,44,Rhode Island,wk inc rsv hosp,hosp,0
-2025-08-30,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,45,South Carolina,wk inc rsv hosp,hosp,0
-2025-08-30,45,South Carolina,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,46,South Dakota,wk inc rsv hosp,hosp,0
-2025-08-30,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,47,Tennessee,wk inc rsv hosp,hosp,2
-2025-08-30,47,Tennessee,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,48,Texas,wk inc rsv hosp,hosp,8
-2025-08-30,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-08-30,49,Utah,wk inc rsv hosp,hosp,0
-2025-08-30,49,Utah,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,50,Vermont,wk inc rsv hosp,hosp,0
-2025-08-30,50,Vermont,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-08-30,51,Virginia,wk inc rsv hosp,hosp,1
-2025-08-30,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-08-30,53,Washington,wk inc rsv hosp,hosp,0
-2025-08-30,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,54,West Virginia,wk inc rsv hosp,hosp,1
-2025-08-30,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,55,Wisconsin,wk inc rsv hosp,hosp,2
-2025-08-30,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-08-30,56,Wyoming,wk inc rsv hosp,hosp,0
-2025-08-30,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
-2025-08-30,72,Puerto Rico,wk inc rsv hosp,hosp,4
-2025-08-30,US,United States,wk inc rsv hosp,hosp,233
-2025-08-30,US,United States,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,01,Alabama,wk inc rsv hosp,hosp,7
-2025-09-06,01,Alabama,wk inc rsv prop ed visits,prop_ed,7e-4
-2025-09-06,02,Alaska,wk inc rsv hosp,hosp,0
-2025-09-06,02,Alaska,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,04,Arizona,wk inc rsv hosp,hosp,0
-2025-09-06,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,05,Arkansas,wk inc rsv hosp,hosp,2
-2025-09-06,05,Arkansas,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,06,California,wk inc rsv hosp,hosp,6
-2025-09-06,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,08,Colorado,wk inc rsv hosp,hosp,1
-2025-09-06,08,Colorado,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,09,Connecticut,wk inc rsv hosp,hosp,2
-2025-09-06,09,Connecticut,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,10,Delaware,wk inc rsv hosp,hosp,1
-2025-09-06,10,Delaware,wk inc rsv prop ed visits,prop_ed,5e-4
-2025-09-06,11,District of Columbia,wk inc rsv hosp,hosp,0
-2025-09-06,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,12,Florida,wk inc rsv hosp,hosp,76
-2025-09-06,12,Florida,wk inc rsv prop ed visits,prop_ed,9e-4
-2025-09-06,13,Georgia,wk inc rsv hosp,hosp,13
-2025-09-06,13,Georgia,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,15,Hawaii,wk inc rsv hosp,hosp,4
-2025-09-06,15,Hawaii,wk inc rsv prop ed visits,prop_ed,6e-4
-2025-09-06,16,Idaho,wk inc rsv hosp,hosp,0
-2025-09-06,16,Idaho,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,17,Illinois,wk inc rsv hosp,hosp,8
-2025-09-06,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,18,Indiana,wk inc rsv hosp,hosp,6
-2025-09-06,18,Indiana,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,19,Iowa,wk inc rsv hosp,hosp,3
-2025-09-06,19,Iowa,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,20,Kansas,wk inc rsv hosp,hosp,2
-2025-09-06,20,Kansas,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,21,Kentucky,wk inc rsv hosp,hosp,3
-2025-09-06,21,Kentucky,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,22,Louisiana,wk inc rsv hosp,hosp,1
-2025-09-06,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,23,Maine,wk inc rsv hosp,hosp,2
-2025-09-06,23,Maine,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,24,Maryland,wk inc rsv hosp,hosp,3
-2025-09-06,24,Maryland,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,25,Massachusetts,wk inc rsv hosp,hosp,3
-2025-09-06,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,26,Michigan,wk inc rsv hosp,hosp,1
-2025-09-06,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,27,Minnesota,wk inc rsv hosp,hosp,4
-2025-09-06,27,Minnesota,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,28,Mississippi,wk inc rsv hosp,hosp,0
-2025-09-06,28,Mississippi,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,29,Missouri,wk inc rsv hosp,hosp,0
-2025-09-06,30,Montana,wk inc rsv hosp,hosp,0
-2025-09-06,30,Montana,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,31,Nebraska,wk inc rsv hosp,hosp,0
-2025-09-06,31,Nebraska,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,32,Nevada,wk inc rsv hosp,hosp,0
-2025-09-06,32,Nevada,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,33,New Hampshire,wk inc rsv hosp,hosp,0
-2025-09-06,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,34,New Jersey,wk inc rsv hosp,hosp,12
-2025-09-06,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,35,New Mexico,wk inc rsv hosp,hosp,1
-2025-09-06,35,New Mexico,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,36,New York,wk inc rsv hosp,hosp,27
-2025-09-06,36,New York,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,37,North Carolina,wk inc rsv hosp,hosp,3
-2025-09-06,37,North Carolina,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,38,North Dakota,wk inc rsv hosp,hosp,0
-2025-09-06,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,39,Ohio,wk inc rsv hosp,hosp,3
-2025-09-06,39,Ohio,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,40,Oklahoma,wk inc rsv hosp,hosp,1
-2025-09-06,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,41,Oregon,wk inc rsv hosp,hosp,1
-2025-09-06,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,42,Pennsylvania,wk inc rsv hosp,hosp,36
-2025-09-06,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,44,Rhode Island,wk inc rsv hosp,hosp,0
-2025-09-06,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,45,South Carolina,wk inc rsv hosp,hosp,0
-2025-09-06,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,46,South Dakota,wk inc rsv hosp,hosp,0
-2025-09-06,46,South Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,47,Tennessee,wk inc rsv hosp,hosp,3
-2025-09-06,47,Tennessee,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,48,Texas,wk inc rsv hosp,hosp,15
-2025-09-06,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-06,49,Utah,wk inc rsv hosp,hosp,0
-2025-09-06,49,Utah,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,50,Vermont,wk inc rsv hosp,hosp,0
-2025-09-06,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,51,Virginia,wk inc rsv hosp,hosp,4
-2025-09-06,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-06,53,Washington,wk inc rsv hosp,hosp,0
-2025-09-06,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,54,West Virginia,wk inc rsv hosp,hosp,0
-2025-09-06,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,55,Wisconsin,wk inc rsv hosp,hosp,6
-2025-09-06,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-06,56,Wyoming,wk inc rsv hosp,hosp,0
-2025-09-06,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
-2025-09-06,72,Puerto Rico,wk inc rsv hosp,hosp,11
-2025-09-06,US,United States,wk inc rsv hosp,hosp,271
-2025-09-06,US,United States,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,01,Alabama,wk inc rsv hosp,hosp,7
-2025-09-13,01,Alabama,wk inc rsv prop ed visits,prop_ed,8e-4
-2025-09-13,02,Alaska,wk inc rsv hosp,hosp,2
-2025-09-13,02,Alaska,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,04,Arizona,wk inc rsv hosp,hosp,1
-2025-09-13,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,05,Arkansas,wk inc rsv hosp,hosp,2
-2025-09-13,05,Arkansas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-13,06,California,wk inc rsv hosp,hosp,14
-2025-09-13,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,08,Colorado,wk inc rsv hosp,hosp,0
-2025-09-13,08,Colorado,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,09,Connecticut,wk inc rsv hosp,hosp,0
-2025-09-13,09,Connecticut,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,10,Delaware,wk inc rsv hosp,hosp,1
-2025-09-13,10,Delaware,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,11,District of Columbia,wk inc rsv hosp,hosp,0
-2025-09-13,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,7e-4
-2025-09-13,12,Florida,wk inc rsv hosp,hosp,98
-2025-09-13,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0012
-2025-09-13,13,Georgia,wk inc rsv hosp,hosp,22
-2025-09-13,13,Georgia,wk inc rsv prop ed visits,prop_ed,5e-4
-2025-09-13,15,Hawaii,wk inc rsv hosp,hosp,3
-2025-09-13,15,Hawaii,wk inc rsv prop ed visits,prop_ed,6e-4
-2025-09-13,16,Idaho,wk inc rsv hosp,hosp,0
-2025-09-13,16,Idaho,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-13,17,Illinois,wk inc rsv hosp,hosp,3
-2025-09-13,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,18,Indiana,wk inc rsv hosp,hosp,6
-2025-09-13,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,19,Iowa,wk inc rsv hosp,hosp,0
-2025-09-13,19,Iowa,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,20,Kansas,wk inc rsv hosp,hosp,1
-2025-09-13,20,Kansas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-13,21,Kentucky,wk inc rsv hosp,hosp,2
-2025-09-13,21,Kentucky,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,22,Louisiana,wk inc rsv hosp,hosp,1
-2025-09-13,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,23,Maine,wk inc rsv hosp,hosp,1
-2025-09-13,23,Maine,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-09-13,24,Maryland,wk inc rsv hosp,hosp,3
-2025-09-13,24,Maryland,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,25,Massachusetts,wk inc rsv hosp,hosp,6
-2025-09-13,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,26,Michigan,wk inc rsv hosp,hosp,1
-2025-09-13,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,27,Minnesota,wk inc rsv hosp,hosp,2
-2025-09-13,27,Minnesota,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,28,Mississippi,wk inc rsv hosp,hosp,2
-2025-09-13,28,Mississippi,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,29,Missouri,wk inc rsv hosp,hosp,0
-2025-09-13,30,Montana,wk inc rsv hosp,hosp,0
-2025-09-13,30,Montana,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,31,Nebraska,wk inc rsv hosp,hosp,3
-2025-09-13,31,Nebraska,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,32,Nevada,wk inc rsv hosp,hosp,1
-2025-09-13,32,Nevada,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,33,New Hampshire,wk inc rsv hosp,hosp,0
-2025-09-13,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,34,New Jersey,wk inc rsv hosp,hosp,13
-2025-09-13,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,35,New Mexico,wk inc rsv hosp,hosp,0
-2025-09-13,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,36,New York,wk inc rsv hosp,hosp,31
-2025-09-13,36,New York,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,37,North Carolina,wk inc rsv hosp,hosp,9
-2025-09-13,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,38,North Dakota,wk inc rsv hosp,hosp,0
-2025-09-13,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,39,Ohio,wk inc rsv hosp,hosp,4
-2025-09-13,39,Ohio,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,40,Oklahoma,wk inc rsv hosp,hosp,1
-2025-09-13,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-09-13,41,Oregon,wk inc rsv hosp,hosp,0
-2025-09-13,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,42,Pennsylvania,wk inc rsv hosp,hosp,41
-2025-09-13,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,44,Rhode Island,wk inc rsv hosp,hosp,0
-2025-09-13,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,45,South Carolina,wk inc rsv hosp,hosp,2
-2025-09-13,45,South Carolina,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,46,South Dakota,wk inc rsv hosp,hosp,0
-2025-09-13,46,South Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,47,Tennessee,wk inc rsv hosp,hosp,2
-2025-09-13,47,Tennessee,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-13,48,Texas,wk inc rsv hosp,hosp,24
-2025-09-13,48,Texas,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-09-13,49,Utah,wk inc rsv hosp,hosp,0
-2025-09-13,49,Utah,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,50,Vermont,wk inc rsv hosp,hosp,0
-2025-09-13,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,51,Virginia,wk inc rsv hosp,hosp,6
-2025-09-13,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,53,Washington,wk inc rsv hosp,hosp,1
-2025-09-13,53,Washington,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-13,54,West Virginia,wk inc rsv hosp,hosp,2
-2025-09-13,54,West Virginia,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-13,55,Wisconsin,wk inc rsv hosp,hosp,0
-2025-09-13,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-13,56,Wyoming,wk inc rsv hosp,hosp,0
-2025-09-13,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
-2025-09-13,72,Puerto Rico,wk inc rsv hosp,hosp,22
-2025-09-13,US,United States,wk inc rsv hosp,hosp,341
-2025-09-13,US,United States,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,01,Alabama,wk inc rsv hosp,hosp,9
-2025-09-20,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0011
-2025-09-20,02,Alaska,wk inc rsv hosp,hosp,0
-2025-09-20,02,Alaska,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,04,Arizona,wk inc rsv hosp,hosp,1
-2025-09-20,04,Arizona,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,05,Arkansas,wk inc rsv hosp,hosp,4
-2025-09-20,05,Arkansas,wk inc rsv prop ed visits,prop_ed,7e-4
-2025-09-20,06,California,wk inc rsv hosp,hosp,13
-2025-09-20,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,08,Colorado,wk inc rsv hosp,hosp,0
-2025-09-20,08,Colorado,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,09,Connecticut,wk inc rsv hosp,hosp,0
-2025-09-20,09,Connecticut,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,10,Delaware,wk inc rsv hosp,hosp,1
-2025-09-20,10,Delaware,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,11,District of Columbia,wk inc rsv hosp,hosp,1
-2025-09-20,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,12,Florida,wk inc rsv hosp,hosp,118
-2025-09-20,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0014
-2025-09-20,13,Georgia,wk inc rsv hosp,hosp,14
-2025-09-20,13,Georgia,wk inc rsv prop ed visits,prop_ed,5e-4
-2025-09-20,15,Hawaii,wk inc rsv hosp,hosp,6
-2025-09-20,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.0015
-2025-09-20,16,Idaho,wk inc rsv hosp,hosp,0
-2025-09-20,16,Idaho,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,17,Illinois,wk inc rsv hosp,hosp,2
-2025-09-20,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,18,Indiana,wk inc rsv hosp,hosp,2
-2025-09-20,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,19,Iowa,wk inc rsv hosp,hosp,1
-2025-09-20,19,Iowa,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,20,Kansas,wk inc rsv hosp,hosp,2
-2025-09-20,20,Kansas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,21,Kentucky,wk inc rsv hosp,hosp,2
-2025-09-20,21,Kentucky,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,22,Louisiana,wk inc rsv hosp,hosp,4
-2025-09-20,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,23,Maine,wk inc rsv hosp,hosp,0
-2025-09-20,23,Maine,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,24,Maryland,wk inc rsv hosp,hosp,2
-2025-09-20,24,Maryland,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,25,Massachusetts,wk inc rsv hosp,hosp,9
-2025-09-20,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,26,Michigan,wk inc rsv hosp,hosp,2
-2025-09-20,26,Michigan,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,27,Minnesota,wk inc rsv hosp,hosp,2
-2025-09-20,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,28,Mississippi,wk inc rsv hosp,hosp,0
-2025-09-20,28,Mississippi,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,29,Missouri,wk inc rsv hosp,hosp,1
-2025-09-20,30,Montana,wk inc rsv hosp,hosp,0
-2025-09-20,30,Montana,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,31,Nebraska,wk inc rsv hosp,hosp,1
-2025-09-20,31,Nebraska,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,32,Nevada,wk inc rsv hosp,hosp,0
-2025-09-20,32,Nevada,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,33,New Hampshire,wk inc rsv hosp,hosp,0
-2025-09-20,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,34,New Jersey,wk inc rsv hosp,hosp,8
-2025-09-20,34,New Jersey,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,35,New Mexico,wk inc rsv hosp,hosp,0
-2025-09-20,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,36,New York,wk inc rsv hosp,hosp,30
-2025-09-20,36,New York,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,37,North Carolina,wk inc rsv hosp,hosp,6
-2025-09-20,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,38,North Dakota,wk inc rsv hosp,hosp,0
-2025-09-20,38,North Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,39,Ohio,wk inc rsv hosp,hosp,1
-2025-09-20,39,Ohio,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,40,Oklahoma,wk inc rsv hosp,hosp,0
-2025-09-20,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,41,Oregon,wk inc rsv hosp,hosp,1
-2025-09-20,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,42,Pennsylvania,wk inc rsv hosp,hosp,33
-2025-09-20,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,44,Rhode Island,wk inc rsv hosp,hosp,1
-2025-09-20,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-09-20,45,South Carolina,wk inc rsv hosp,hosp,4
-2025-09-20,45,South Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,46,South Dakota,wk inc rsv hosp,hosp,0
-2025-09-20,46,South Dakota,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,47,Tennessee,wk inc rsv hosp,hosp,0
-2025-09-20,47,Tennessee,wk inc rsv prop ed visits,prop_ed,2e-4
-2025-09-20,48,Texas,wk inc rsv hosp,hosp,26
-2025-09-20,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
-2025-09-20,49,Utah,wk inc rsv hosp,hosp,0
-2025-09-20,49,Utah,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,50,Vermont,wk inc rsv hosp,hosp,0
-2025-09-20,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,51,Virginia,wk inc rsv hosp,hosp,3
-2025-09-20,51,Virginia,wk inc rsv prop ed visits,prop_ed,4e-4
-2025-09-20,53,Washington,wk inc rsv hosp,hosp,1
-2025-09-20,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,54,West Virginia,wk inc rsv hosp,hosp,0
-2025-09-20,54,West Virginia,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,55,Wisconsin,wk inc rsv hosp,hosp,5
-2025-09-20,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
-2025-09-20,56,Wyoming,wk inc rsv hosp,hosp,0
-2025-09-20,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
-2025-09-20,72,Puerto Rico,wk inc rsv hosp,hosp,15
-2025-09-20,US,United States,wk inc rsv hosp,hosp,333
-2025-09-20,US,United States,wk inc rsv prop ed visits,prop_ed,3e-4
 2024-02-10,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0017
 2024-02-10,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.002
 2024-02-10,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.0034
@@ -9256,6 +8843,419 @@ week_ending_date,location,location_name,target,target_data_type,value
 2024-10-19,02,Alaska,wk inc rsv prop ed visits,prop_ed,9e-4
 2024-10-19,04,Arizona,wk inc rsv prop ed visits,prop_ed,2e-4
 2024-10-19,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.001
+2025-08-30,02,Alaska,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,04,Arizona,wk inc rsv hosp,hosp,0
+2025-08-30,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,05,Arkansas,wk inc rsv hosp,hosp,1
+2025-08-30,05,Arkansas,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,06,California,wk inc rsv hosp,hosp,11
+2025-08-30,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,08,Colorado,wk inc rsv hosp,hosp,0
+2025-08-30,08,Colorado,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,09,Connecticut,wk inc rsv hosp,hosp,2
+2025-08-30,09,Connecticut,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,10,Delaware,wk inc rsv hosp,hosp,0
+2025-08-30,10,Delaware,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-08-30,11,District of Columbia,wk inc rsv hosp,hosp,0
+2025-08-30,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,7e-4
+2025-08-30,12,Florida,wk inc rsv hosp,hosp,86
+2025-08-30,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0011
+2025-08-30,13,Georgia,wk inc rsv hosp,hosp,15
+2025-08-30,13,Georgia,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-08-30,15,Hawaii,wk inc rsv hosp,hosp,2
+2025-08-30,15,Hawaii,wk inc rsv prop ed visits,prop_ed,7e-4
+2025-08-30,16,Idaho,wk inc rsv hosp,hosp,0
+2025-08-30,16,Idaho,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,17,Illinois,wk inc rsv hosp,hosp,3
+2025-08-30,17,Illinois,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,18,Indiana,wk inc rsv hosp,hosp,4
+2025-08-30,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,19,Iowa,wk inc rsv hosp,hosp,1
+2025-08-30,19,Iowa,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,20,Kansas,wk inc rsv hosp,hosp,1
+2025-08-30,20,Kansas,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,21,Kentucky,wk inc rsv hosp,hosp,1
+2025-08-30,21,Kentucky,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,22,Louisiana,wk inc rsv hosp,hosp,3
+2025-08-30,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,23,Maine,wk inc rsv hosp,hosp,0
+2025-08-30,23,Maine,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,24,Maryland,wk inc rsv hosp,hosp,0
+2025-08-30,24,Maryland,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,25,Massachusetts,wk inc rsv hosp,hosp,4
+2025-08-30,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,26,Michigan,wk inc rsv hosp,hosp,1
+2025-08-30,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,27,Minnesota,wk inc rsv hosp,hosp,3
+2025-08-30,27,Minnesota,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,28,Mississippi,wk inc rsv hosp,hosp,0
+2025-08-30,28,Mississippi,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,29,Missouri,wk inc rsv hosp,hosp,1
+2025-08-30,30,Montana,wk inc rsv hosp,hosp,0
+2025-08-30,30,Montana,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,31,Nebraska,wk inc rsv hosp,hosp,1
+2025-08-30,31,Nebraska,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,32,Nevada,wk inc rsv hosp,hosp,0
+2025-08-30,32,Nevada,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,33,New Hampshire,wk inc rsv hosp,hosp,1
+2025-08-30,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,34,New Jersey,wk inc rsv hosp,hosp,5
+2025-08-30,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,35,New Mexico,wk inc rsv hosp,hosp,0
+2025-08-30,35,New Mexico,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,36,New York,wk inc rsv hosp,hosp,19
+2025-08-30,36,New York,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,37,North Carolina,wk inc rsv hosp,hosp,4
+2025-08-30,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,38,North Dakota,wk inc rsv hosp,hosp,0
+2025-08-30,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,39,Ohio,wk inc rsv hosp,hosp,4
+2025-08-30,39,Ohio,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,40,Oklahoma,wk inc rsv hosp,hosp,0
+2025-08-30,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,41,Oregon,wk inc rsv hosp,hosp,0
+2025-08-30,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,42,Pennsylvania,wk inc rsv hosp,hosp,32
+2025-08-30,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,44,Rhode Island,wk inc rsv hosp,hosp,0
+2025-08-30,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,45,South Carolina,wk inc rsv hosp,hosp,0
+2025-08-30,45,South Carolina,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,46,South Dakota,wk inc rsv hosp,hosp,0
+2025-08-30,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,47,Tennessee,wk inc rsv hosp,hosp,2
+2025-08-30,47,Tennessee,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,48,Texas,wk inc rsv hosp,hosp,8
+2025-08-30,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-08-30,49,Utah,wk inc rsv hosp,hosp,0
+2025-08-30,49,Utah,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,50,Vermont,wk inc rsv hosp,hosp,0
+2025-08-30,50,Vermont,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-08-30,51,Virginia,wk inc rsv hosp,hosp,1
+2025-08-30,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-08-30,53,Washington,wk inc rsv hosp,hosp,0
+2025-08-30,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,54,West Virginia,wk inc rsv hosp,hosp,1
+2025-08-30,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,55,Wisconsin,wk inc rsv hosp,hosp,2
+2025-08-30,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-08-30,56,Wyoming,wk inc rsv hosp,hosp,0
+2025-08-30,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
+2025-08-30,72,Puerto Rico,wk inc rsv hosp,hosp,4
+2025-08-30,US,United States,wk inc rsv hosp,hosp,233
+2025-08-30,US,United States,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,01,Alabama,wk inc rsv hosp,hosp,7
+2025-09-06,01,Alabama,wk inc rsv prop ed visits,prop_ed,7e-4
+2025-09-06,02,Alaska,wk inc rsv hosp,hosp,0
+2025-09-06,02,Alaska,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,04,Arizona,wk inc rsv hosp,hosp,0
+2025-09-06,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,05,Arkansas,wk inc rsv hosp,hosp,2
+2025-09-06,05,Arkansas,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,06,California,wk inc rsv hosp,hosp,6
+2025-09-06,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,08,Colorado,wk inc rsv hosp,hosp,1
+2025-09-06,08,Colorado,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,09,Connecticut,wk inc rsv hosp,hosp,2
+2025-09-06,09,Connecticut,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,10,Delaware,wk inc rsv hosp,hosp,1
+2025-09-06,10,Delaware,wk inc rsv prop ed visits,prop_ed,5e-4
+2025-09-06,11,District of Columbia,wk inc rsv hosp,hosp,0
+2025-09-06,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,12,Florida,wk inc rsv hosp,hosp,76
+2025-09-06,12,Florida,wk inc rsv prop ed visits,prop_ed,9e-4
+2025-09-06,13,Georgia,wk inc rsv hosp,hosp,13
+2025-09-06,13,Georgia,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,15,Hawaii,wk inc rsv hosp,hosp,4
+2025-09-06,15,Hawaii,wk inc rsv prop ed visits,prop_ed,6e-4
+2025-09-06,16,Idaho,wk inc rsv hosp,hosp,0
+2025-09-06,16,Idaho,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,17,Illinois,wk inc rsv hosp,hosp,8
+2025-09-06,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,18,Indiana,wk inc rsv hosp,hosp,6
+2025-09-06,18,Indiana,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,19,Iowa,wk inc rsv hosp,hosp,3
+2025-09-06,19,Iowa,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,20,Kansas,wk inc rsv hosp,hosp,2
+2025-09-06,20,Kansas,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,21,Kentucky,wk inc rsv hosp,hosp,3
+2025-09-06,21,Kentucky,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,22,Louisiana,wk inc rsv hosp,hosp,1
+2025-09-06,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,23,Maine,wk inc rsv hosp,hosp,2
+2025-09-06,23,Maine,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,24,Maryland,wk inc rsv hosp,hosp,3
+2025-09-06,24,Maryland,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,25,Massachusetts,wk inc rsv hosp,hosp,3
+2025-09-06,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,26,Michigan,wk inc rsv hosp,hosp,1
+2025-09-06,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,27,Minnesota,wk inc rsv hosp,hosp,4
+2025-09-06,27,Minnesota,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,28,Mississippi,wk inc rsv hosp,hosp,0
+2025-09-06,28,Mississippi,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,29,Missouri,wk inc rsv hosp,hosp,0
+2025-09-06,30,Montana,wk inc rsv hosp,hosp,0
+2025-09-06,30,Montana,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,31,Nebraska,wk inc rsv hosp,hosp,0
+2025-09-06,31,Nebraska,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,32,Nevada,wk inc rsv hosp,hosp,0
+2025-09-06,32,Nevada,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,33,New Hampshire,wk inc rsv hosp,hosp,0
+2025-09-06,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,34,New Jersey,wk inc rsv hosp,hosp,12
+2025-09-06,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,35,New Mexico,wk inc rsv hosp,hosp,1
+2025-09-06,35,New Mexico,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,36,New York,wk inc rsv hosp,hosp,27
+2025-09-06,36,New York,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,37,North Carolina,wk inc rsv hosp,hosp,3
+2025-09-06,37,North Carolina,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,38,North Dakota,wk inc rsv hosp,hosp,0
+2025-09-06,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,39,Ohio,wk inc rsv hosp,hosp,3
+2025-09-06,39,Ohio,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,40,Oklahoma,wk inc rsv hosp,hosp,1
+2025-09-06,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,41,Oregon,wk inc rsv hosp,hosp,1
+2025-09-06,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,42,Pennsylvania,wk inc rsv hosp,hosp,36
+2025-09-06,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,44,Rhode Island,wk inc rsv hosp,hosp,0
+2025-09-06,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,45,South Carolina,wk inc rsv hosp,hosp,0
+2025-09-06,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,46,South Dakota,wk inc rsv hosp,hosp,0
+2025-09-06,46,South Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,47,Tennessee,wk inc rsv hosp,hosp,3
+2025-09-06,47,Tennessee,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,48,Texas,wk inc rsv hosp,hosp,15
+2025-09-06,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-06,49,Utah,wk inc rsv hosp,hosp,0
+2025-09-06,49,Utah,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,50,Vermont,wk inc rsv hosp,hosp,0
+2025-09-06,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,51,Virginia,wk inc rsv hosp,hosp,4
+2025-09-06,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-06,53,Washington,wk inc rsv hosp,hosp,0
+2025-09-06,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,54,West Virginia,wk inc rsv hosp,hosp,0
+2025-09-06,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,55,Wisconsin,wk inc rsv hosp,hosp,6
+2025-09-06,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-06,56,Wyoming,wk inc rsv hosp,hosp,0
+2025-09-06,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
+2025-09-06,72,Puerto Rico,wk inc rsv hosp,hosp,11
+2025-09-06,US,United States,wk inc rsv hosp,hosp,271
+2025-09-06,US,United States,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,01,Alabama,wk inc rsv hosp,hosp,7
+2025-09-13,01,Alabama,wk inc rsv prop ed visits,prop_ed,8e-4
+2025-09-13,02,Alaska,wk inc rsv hosp,hosp,2
+2025-09-13,02,Alaska,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,04,Arizona,wk inc rsv hosp,hosp,1
+2025-09-13,04,Arizona,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,05,Arkansas,wk inc rsv hosp,hosp,2
+2025-09-13,05,Arkansas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-13,06,California,wk inc rsv hosp,hosp,14
+2025-09-13,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,08,Colorado,wk inc rsv hosp,hosp,0
+2025-09-13,08,Colorado,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,09,Connecticut,wk inc rsv hosp,hosp,0
+2025-09-13,09,Connecticut,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,10,Delaware,wk inc rsv hosp,hosp,1
+2025-09-13,10,Delaware,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,11,District of Columbia,wk inc rsv hosp,hosp,0
+2025-09-13,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,7e-4
+2025-09-13,12,Florida,wk inc rsv hosp,hosp,98
+2025-09-13,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0012
+2025-09-13,13,Georgia,wk inc rsv hosp,hosp,22
+2025-09-13,13,Georgia,wk inc rsv prop ed visits,prop_ed,5e-4
+2025-09-13,15,Hawaii,wk inc rsv hosp,hosp,3
+2025-09-13,15,Hawaii,wk inc rsv prop ed visits,prop_ed,6e-4
+2025-09-13,16,Idaho,wk inc rsv hosp,hosp,0
+2025-09-13,16,Idaho,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-13,17,Illinois,wk inc rsv hosp,hosp,3
+2025-09-13,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,18,Indiana,wk inc rsv hosp,hosp,6
+2025-09-13,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,19,Iowa,wk inc rsv hosp,hosp,0
+2025-09-13,19,Iowa,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,20,Kansas,wk inc rsv hosp,hosp,1
+2025-09-13,20,Kansas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-13,21,Kentucky,wk inc rsv hosp,hosp,2
+2025-09-13,21,Kentucky,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,22,Louisiana,wk inc rsv hosp,hosp,1
+2025-09-13,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,23,Maine,wk inc rsv hosp,hosp,1
+2025-09-13,23,Maine,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-09-13,24,Maryland,wk inc rsv hosp,hosp,3
+2025-09-13,24,Maryland,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,25,Massachusetts,wk inc rsv hosp,hosp,6
+2025-09-13,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,26,Michigan,wk inc rsv hosp,hosp,1
+2025-09-13,26,Michigan,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,27,Minnesota,wk inc rsv hosp,hosp,2
+2025-09-13,27,Minnesota,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,28,Mississippi,wk inc rsv hosp,hosp,2
+2025-09-13,28,Mississippi,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,29,Missouri,wk inc rsv hosp,hosp,0
+2025-09-13,30,Montana,wk inc rsv hosp,hosp,0
+2025-09-13,30,Montana,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,31,Nebraska,wk inc rsv hosp,hosp,3
+2025-09-13,31,Nebraska,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,32,Nevada,wk inc rsv hosp,hosp,1
+2025-09-13,32,Nevada,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,33,New Hampshire,wk inc rsv hosp,hosp,0
+2025-09-13,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,34,New Jersey,wk inc rsv hosp,hosp,13
+2025-09-13,34,New Jersey,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,35,New Mexico,wk inc rsv hosp,hosp,0
+2025-09-13,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,36,New York,wk inc rsv hosp,hosp,31
+2025-09-13,36,New York,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,37,North Carolina,wk inc rsv hosp,hosp,9
+2025-09-13,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,38,North Dakota,wk inc rsv hosp,hosp,0
+2025-09-13,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,39,Ohio,wk inc rsv hosp,hosp,4
+2025-09-13,39,Ohio,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,40,Oklahoma,wk inc rsv hosp,hosp,1
+2025-09-13,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-09-13,41,Oregon,wk inc rsv hosp,hosp,0
+2025-09-13,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,42,Pennsylvania,wk inc rsv hosp,hosp,41
+2025-09-13,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,44,Rhode Island,wk inc rsv hosp,hosp,0
+2025-09-13,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,45,South Carolina,wk inc rsv hosp,hosp,2
+2025-09-13,45,South Carolina,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,46,South Dakota,wk inc rsv hosp,hosp,0
+2025-09-13,46,South Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,47,Tennessee,wk inc rsv hosp,hosp,2
+2025-09-13,47,Tennessee,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-13,48,Texas,wk inc rsv hosp,hosp,24
+2025-09-13,48,Texas,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-09-13,49,Utah,wk inc rsv hosp,hosp,0
+2025-09-13,49,Utah,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,50,Vermont,wk inc rsv hosp,hosp,0
+2025-09-13,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,51,Virginia,wk inc rsv hosp,hosp,6
+2025-09-13,51,Virginia,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,53,Washington,wk inc rsv hosp,hosp,1
+2025-09-13,53,Washington,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-13,54,West Virginia,wk inc rsv hosp,hosp,2
+2025-09-13,54,West Virginia,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-13,55,Wisconsin,wk inc rsv hosp,hosp,0
+2025-09-13,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-13,56,Wyoming,wk inc rsv hosp,hosp,0
+2025-09-13,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
+2025-09-13,72,Puerto Rico,wk inc rsv hosp,hosp,22
+2025-09-13,US,United States,wk inc rsv hosp,hosp,341
+2025-09-13,US,United States,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,01,Alabama,wk inc rsv hosp,hosp,9
+2025-09-20,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0011
+2025-09-20,02,Alaska,wk inc rsv hosp,hosp,0
+2025-09-20,02,Alaska,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,04,Arizona,wk inc rsv hosp,hosp,1
+2025-09-20,04,Arizona,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,05,Arkansas,wk inc rsv hosp,hosp,4
+2025-09-20,05,Arkansas,wk inc rsv prop ed visits,prop_ed,7e-4
+2025-09-20,06,California,wk inc rsv hosp,hosp,13
+2025-09-20,06,California,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,08,Colorado,wk inc rsv hosp,hosp,0
+2025-09-20,08,Colorado,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,09,Connecticut,wk inc rsv hosp,hosp,0
+2025-09-20,09,Connecticut,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,10,Delaware,wk inc rsv hosp,hosp,1
+2025-09-20,10,Delaware,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,11,District of Columbia,wk inc rsv hosp,hosp,1
+2025-09-20,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,12,Florida,wk inc rsv hosp,hosp,118
+2025-09-20,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0014
+2025-09-20,13,Georgia,wk inc rsv hosp,hosp,14
+2025-09-20,13,Georgia,wk inc rsv prop ed visits,prop_ed,5e-4
+2025-09-20,15,Hawaii,wk inc rsv hosp,hosp,6
+2025-09-20,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.0015
+2025-09-20,16,Idaho,wk inc rsv hosp,hosp,0
+2025-09-20,16,Idaho,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,17,Illinois,wk inc rsv hosp,hosp,2
+2025-09-20,17,Illinois,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,18,Indiana,wk inc rsv hosp,hosp,2
+2025-09-20,18,Indiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,19,Iowa,wk inc rsv hosp,hosp,1
+2025-09-20,19,Iowa,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,20,Kansas,wk inc rsv hosp,hosp,2
+2025-09-20,20,Kansas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,21,Kentucky,wk inc rsv hosp,hosp,2
+2025-09-20,21,Kentucky,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,22,Louisiana,wk inc rsv hosp,hosp,4
+2025-09-20,22,Louisiana,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,23,Maine,wk inc rsv hosp,hosp,0
+2025-09-20,23,Maine,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,24,Maryland,wk inc rsv hosp,hosp,2
+2025-09-20,24,Maryland,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,25,Massachusetts,wk inc rsv hosp,hosp,9
+2025-09-20,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,26,Michigan,wk inc rsv hosp,hosp,2
+2025-09-20,26,Michigan,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,27,Minnesota,wk inc rsv hosp,hosp,2
+2025-09-20,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,28,Mississippi,wk inc rsv hosp,hosp,0
+2025-09-20,28,Mississippi,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,29,Missouri,wk inc rsv hosp,hosp,1
+2025-09-20,30,Montana,wk inc rsv hosp,hosp,0
+2025-09-20,30,Montana,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,31,Nebraska,wk inc rsv hosp,hosp,1
+2025-09-20,31,Nebraska,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,32,Nevada,wk inc rsv hosp,hosp,0
+2025-09-20,32,Nevada,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,33,New Hampshire,wk inc rsv hosp,hosp,0
+2025-09-20,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,34,New Jersey,wk inc rsv hosp,hosp,8
+2025-09-20,34,New Jersey,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,35,New Mexico,wk inc rsv hosp,hosp,0
+2025-09-20,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,36,New York,wk inc rsv hosp,hosp,30
+2025-09-20,36,New York,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,37,North Carolina,wk inc rsv hosp,hosp,6
+2025-09-20,37,North Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,38,North Dakota,wk inc rsv hosp,hosp,0
+2025-09-20,38,North Dakota,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,39,Ohio,wk inc rsv hosp,hosp,1
+2025-09-20,39,Ohio,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,40,Oklahoma,wk inc rsv hosp,hosp,0
+2025-09-20,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,41,Oregon,wk inc rsv hosp,hosp,1
+2025-09-20,41,Oregon,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,42,Pennsylvania,wk inc rsv hosp,hosp,33
+2025-09-20,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,44,Rhode Island,wk inc rsv hosp,hosp,1
+2025-09-20,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-09-20,45,South Carolina,wk inc rsv hosp,hosp,4
+2025-09-20,45,South Carolina,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,46,South Dakota,wk inc rsv hosp,hosp,0
+2025-09-20,46,South Dakota,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,47,Tennessee,wk inc rsv hosp,hosp,0
+2025-09-20,47,Tennessee,wk inc rsv prop ed visits,prop_ed,2e-4
+2025-09-20,48,Texas,wk inc rsv hosp,hosp,26
+2025-09-20,48,Texas,wk inc rsv prop ed visits,prop_ed,3e-4
+2025-09-20,49,Utah,wk inc rsv hosp,hosp,0
+2025-09-20,49,Utah,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,50,Vermont,wk inc rsv hosp,hosp,0
+2025-09-20,50,Vermont,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,51,Virginia,wk inc rsv hosp,hosp,3
+2025-09-20,51,Virginia,wk inc rsv prop ed visits,prop_ed,4e-4
+2025-09-20,53,Washington,wk inc rsv hosp,hosp,1
+2025-09-20,53,Washington,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,54,West Virginia,wk inc rsv hosp,hosp,0
+2025-09-20,54,West Virginia,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,55,Wisconsin,wk inc rsv hosp,hosp,5
+2025-09-20,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,1e-4
+2025-09-20,56,Wyoming,wk inc rsv hosp,hosp,0
+2025-09-20,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0
+2025-09-20,72,Puerto Rico,wk inc rsv hosp,hosp,15
+2025-09-20,US,United States,wk inc rsv hosp,hosp,333
+2025-09-20,US,United States,wk inc rsv prop ed visits,prop_ed,3e-4
 2024-10-19,06,California,wk inc rsv prop ed visits,prop_ed,3e-4
 2024-10-19,08,Colorado,wk inc rsv prop ed visits,prop_ed,3e-4
 2024-10-19,09,Connecticut,wk inc rsv prop ed visits,prop_ed,7e-4
