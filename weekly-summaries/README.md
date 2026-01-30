@@ -96,7 +96,7 @@ _Contains the most recent observed COVID or RSV hospitalization and proportion o
 For `quantile_**_rounded` values, different rounding rules apply based on data type and value:
 
 - **Hospital count data**:
-  - values > 1000: rounded up to nearest hundreds
-  - 10 < values < 1000: rounded up to nearest tens
-  - values < 10: rounded up to nearest integer
+  - values > 1000: rounded to nearest hundreds
+  - 10 < values < 1000: rounded to nearest tens
+  - values < 10: rounded to nearest integer
 - **ED visits proportion data**: rounded to 2 significant figures
