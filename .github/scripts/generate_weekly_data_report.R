@@ -26,6 +26,13 @@ parser <- argparser::add_argument(
   type = "character",
   help = "Disease name (e.g., 'covid' or 'rsv')."
 )
+parser <- argparser::add_argument(
+  parser,
+  "--as-of",
+  type = "character",
+  help = "The as-of date in YYYY-MM-DD format.
+  Defaults to reference-date minus 3 days."
+)
 
 
 args <- argparser::parse_args(parser)
@@ -33,6 +40,12 @@ ref_date <- as.Date(args$reference_date)
 base_hub_path <- args$base_hub_path
 hub_reports_path <- args$hub_reports_path
 disease <- args$disease
+
+if (is.null(args$as_of)) {
+  as_of_date <- ref_date - lubridate::days(3)
+} else {
+  as_of_date <- as.Date(args$as_of)
+}
 
 
 hubhelpr::write_ref_date_summary_ens(
@@ -53,6 +66,9 @@ hubhelpr::write_viz_target_data(
   reference_date = ref_date,
   base_hub_path = base_hub_path,
   hub_reports_path = hub_reports_path,
-  as_of = ref_date - lubridate::days(3),
-  disease = disease
+  as_of = as_of_date,
+  disease = disease,
+  pull_nhsn = TRUE,
+  pull_nssp = ref_date >= as.Date("2025-06-21"),
+  end_date = ref_date - lubridate::days(2)
 )
