@@ -14892,6 +14892,271 @@ week_ending_date,location,location_name,target,target_data_type,value
 2025-12-20,55,Wisconsin,wk inc rsv hosp,hosp,28
 2025-12-20,54,West Virginia,wk inc rsv hosp,hosp,18
 2025-12-20,56,Wyoming,wk inc rsv hosp,hosp,1
+2025-12-27,02,Alaska,wk inc rsv hosp,hosp,8
+2025-12-27,01,Alabama,wk inc rsv hosp,hosp,109
+2025-12-27,05,Arkansas,wk inc rsv hosp,hosp,70
+2025-12-27,04,Arizona,wk inc rsv hosp,hosp,23
+2025-12-27,06,California,wk inc rsv hosp,hosp,277
+2025-12-27,08,Colorado,wk inc rsv hosp,hosp,60
+2025-12-27,09,Connecticut,wk inc rsv hosp,hosp,40
+2025-12-27,11,District of Columbia,wk inc rsv hosp,hosp,5
+2025-12-27,10,Delaware,wk inc rsv hosp,hosp,49
+2025-12-27,12,Florida,wk inc rsv hosp,hosp,482
+2025-12-27,13,Georgia,wk inc rsv hosp,hosp,261
+2025-12-27,15,Hawaii,wk inc rsv hosp,hosp,8
+2025-12-27,19,Iowa,wk inc rsv hosp,hosp,19
+2025-12-27,16,Idaho,wk inc rsv hosp,hosp,15
+2025-12-27,17,Illinois,wk inc rsv hosp,hosp,163
+2025-12-27,18,Indiana,wk inc rsv hosp,hosp,108
+2025-12-27,20,Kansas,wk inc rsv hosp,hosp,24
+2025-12-27,21,Kentucky,wk inc rsv hosp,hosp,65
+2025-12-27,22,Louisiana,wk inc rsv hosp,hosp,125
+2025-12-27,25,Massachusetts,wk inc rsv hosp,hosp,76
+2025-12-27,24,Maryland,wk inc rsv hosp,hosp,114
+2025-12-27,23,Maine,wk inc rsv hosp,hosp,2
+2025-12-27,26,Michigan,wk inc rsv hosp,hosp,81
+2025-12-27,27,Minnesota,wk inc rsv hosp,hosp,66
+2025-12-27,29,Missouri,wk inc rsv hosp,hosp,101
+2025-12-27,28,Mississippi,wk inc rsv hosp,hosp,45
+2025-12-27,30,Montana,wk inc rsv hosp,hosp,3
+2025-12-27,37,North Carolina,wk inc rsv hosp,hosp,224
+2025-12-27,38,North Dakota,wk inc rsv hosp,hosp,5
+2025-12-27,31,Nebraska,wk inc rsv hosp,hosp,9
+2025-12-27,33,New Hampshire,wk inc rsv hosp,hosp,10
+2025-12-27,34,New Jersey,wk inc rsv hosp,hosp,229
+2025-12-27,35,New Mexico,wk inc rsv hosp,hosp,11
+2025-12-27,32,Nevada,wk inc rsv hosp,hosp,22
+2025-12-27,36,New York,wk inc rsv hosp,hosp,468
+2025-12-27,39,Ohio,wk inc rsv hosp,hosp,238
+2025-12-27,40,Oklahoma,wk inc rsv hosp,hosp,28
+2025-12-27,41,Oregon,wk inc rsv hosp,hosp,37
+2025-12-27,42,Pennsylvania,wk inc rsv hosp,hosp,388
+2025-12-27,72,Puerto Rico,wk inc rsv hosp,hosp,60
+2025-12-27,44,Rhode Island,wk inc rsv hosp,hosp,25
+2025-12-27,45,South Carolina,wk inc rsv hosp,hosp,158
+2025-12-27,46,South Dakota,wk inc rsv hosp,hosp,4
+2025-12-27,47,Tennessee,wk inc rsv hosp,hosp,109
+2025-12-27,48,Texas,wk inc rsv hosp,hosp,592
+2025-12-27,US,United States,wk inc rsv hosp,hosp,5273
+2025-12-27,49,Utah,wk inc rsv hosp,hosp,8
+2025-12-27,51,Virginia,wk inc rsv hosp,hosp,135
+2025-12-27,50,Vermont,wk inc rsv hosp,hosp,4
+2025-12-27,53,Washington,wk inc rsv hosp,hosp,58
+2025-12-27,55,Wisconsin,wk inc rsv hosp,hosp,29
+2025-12-27,54,West Virginia,wk inc rsv hosp,hosp,19
+2025-12-27,56,Wyoming,wk inc rsv hosp,hosp,2
+2026-01-03,02,Alaska,wk inc rsv hosp,hosp,6
+2026-01-03,01,Alabama,wk inc rsv hosp,hosp,113
+2026-01-03,05,Arkansas,wk inc rsv hosp,hosp,82
+2026-01-03,04,Arizona,wk inc rsv hosp,hosp,40
+2026-01-03,06,California,wk inc rsv hosp,hosp,408
+2026-01-03,08,Colorado,wk inc rsv hosp,hosp,46
+2026-01-03,09,Connecticut,wk inc rsv hosp,hosp,70
+2026-01-03,11,District of Columbia,wk inc rsv hosp,hosp,11
+2026-01-03,10,Delaware,wk inc rsv hosp,hosp,74
+2026-01-03,12,Florida,wk inc rsv hosp,hosp,509
+2026-01-03,13,Georgia,wk inc rsv hosp,hosp,247
+2026-01-03,15,Hawaii,wk inc rsv hosp,hosp,23
+2026-01-03,19,Iowa,wk inc rsv hosp,hosp,30
+2026-01-03,16,Idaho,wk inc rsv hosp,hosp,16
+2026-01-03,17,Illinois,wk inc rsv hosp,hosp,239
+2026-01-03,18,Indiana,wk inc rsv hosp,hosp,158
+2026-01-03,20,Kansas,wk inc rsv hosp,hosp,42
+2026-01-03,21,Kentucky,wk inc rsv hosp,hosp,79
+2026-01-03,22,Louisiana,wk inc rsv hosp,hosp,144
+2026-01-03,25,Massachusetts,wk inc rsv hosp,hosp,107
+2026-01-03,24,Maryland,wk inc rsv hosp,hosp,169
+2026-01-03,23,Maine,wk inc rsv hosp,hosp,2
+2026-01-03,26,Michigan,wk inc rsv hosp,hosp,112
+2026-01-03,27,Minnesota,wk inc rsv hosp,hosp,80
+2026-01-03,29,Missouri,wk inc rsv hosp,hosp,106
+2026-01-03,28,Mississippi,wk inc rsv hosp,hosp,38
+2026-01-03,30,Montana,wk inc rsv hosp,hosp,4
+2026-01-03,37,North Carolina,wk inc rsv hosp,hosp,287
+2026-01-03,38,North Dakota,wk inc rsv hosp,hosp,6
+2026-01-03,31,Nebraska,wk inc rsv hosp,hosp,19
+2026-01-03,33,New Hampshire,wk inc rsv hosp,hosp,17
+2026-01-03,34,New Jersey,wk inc rsv hosp,hosp,311
+2026-01-03,35,New Mexico,wk inc rsv hosp,hosp,18
+2026-01-03,32,Nevada,wk inc rsv hosp,hosp,29
+2026-01-03,36,New York,wk inc rsv hosp,hosp,552
+2026-01-03,39,Ohio,wk inc rsv hosp,hosp,333
+2026-01-03,40,Oklahoma,wk inc rsv hosp,hosp,34
+2026-01-03,41,Oregon,wk inc rsv hosp,hosp,21
+2026-01-03,42,Pennsylvania,wk inc rsv hosp,hosp,493
+2026-01-03,72,Puerto Rico,wk inc rsv hosp,hosp,68
+2026-01-03,44,Rhode Island,wk inc rsv hosp,hosp,34
+2026-01-03,45,South Carolina,wk inc rsv hosp,hosp,177
+2026-01-03,46,South Dakota,wk inc rsv hosp,hosp,4
+2026-01-03,47,Tennessee,wk inc rsv hosp,hosp,171
+2026-01-03,48,Texas,wk inc rsv hosp,hosp,614
+2026-01-03,US,United States,wk inc rsv hosp,hosp,6482
+2026-01-03,49,Utah,wk inc rsv hosp,hosp,7
+2026-01-03,51,Virginia,wk inc rsv hosp,hosp,155
+2026-01-03,50,Vermont,wk inc rsv hosp,hosp,2
+2026-01-03,53,Washington,wk inc rsv hosp,hosp,53
+2026-01-03,55,Wisconsin,wk inc rsv hosp,hosp,60
+2026-01-03,54,West Virginia,wk inc rsv hosp,hosp,60
+2026-01-03,56,Wyoming,wk inc rsv hosp,hosp,2
+2026-01-10,02,Alaska,wk inc rsv hosp,hosp,8
+2026-01-10,01,Alabama,wk inc rsv hosp,hosp,121
+2026-01-10,05,Arkansas,wk inc rsv hosp,hosp,55
+2026-01-10,04,Arizona,wk inc rsv hosp,hosp,41
+2026-01-10,06,California,wk inc rsv hosp,hosp,402
+2026-01-10,08,Colorado,wk inc rsv hosp,hosp,76
+2026-01-10,09,Connecticut,wk inc rsv hosp,hosp,62
+2026-01-10,11,District of Columbia,wk inc rsv hosp,hosp,8
+2026-01-10,10,Delaware,wk inc rsv hosp,hosp,54
+2026-01-10,12,Florida,wk inc rsv hosp,hosp,498
+2026-01-10,13,Georgia,wk inc rsv hosp,hosp,261
+2026-01-10,15,Hawaii,wk inc rsv hosp,hosp,23
+2026-01-10,19,Iowa,wk inc rsv hosp,hosp,30
+2026-01-10,16,Idaho,wk inc rsv hosp,hosp,21
+2026-01-10,17,Illinois,wk inc rsv hosp,hosp,218
+2026-01-10,18,Indiana,wk inc rsv hosp,hosp,153
+2026-01-10,20,Kansas,wk inc rsv hosp,hosp,38
+2026-01-10,21,Kentucky,wk inc rsv hosp,hosp,113
+2026-01-10,22,Louisiana,wk inc rsv hosp,hosp,121
+2026-01-10,25,Massachusetts,wk inc rsv hosp,hosp,111
+2026-01-10,24,Maryland,wk inc rsv hosp,hosp,160
+2026-01-10,23,Maine,wk inc rsv hosp,hosp,1
+2026-01-10,26,Michigan,wk inc rsv hosp,hosp,118
+2026-01-10,27,Minnesota,wk inc rsv hosp,hosp,77
+2026-01-10,29,Missouri,wk inc rsv hosp,hosp,84
+2026-01-10,28,Mississippi,wk inc rsv hosp,hosp,66
+2026-01-10,30,Montana,wk inc rsv hosp,hosp,5
+2026-01-10,37,North Carolina,wk inc rsv hosp,hosp,273
+2026-01-10,38,North Dakota,wk inc rsv hosp,hosp,8
+2026-01-10,31,Nebraska,wk inc rsv hosp,hosp,21
+2026-01-10,33,New Hampshire,wk inc rsv hosp,hosp,8
+2026-01-10,34,New Jersey,wk inc rsv hosp,hosp,259
+2026-01-10,35,New Mexico,wk inc rsv hosp,hosp,20
+2026-01-10,32,Nevada,wk inc rsv hosp,hosp,20
+2026-01-10,36,New York,wk inc rsv hosp,hosp,549
+2026-01-10,39,Ohio,wk inc rsv hosp,hosp,289
+2026-01-10,40,Oklahoma,wk inc rsv hosp,hosp,62
+2026-01-10,41,Oregon,wk inc rsv hosp,hosp,29
+2026-01-10,42,Pennsylvania,wk inc rsv hosp,hosp,429
+2026-01-10,72,Puerto Rico,wk inc rsv hosp,hosp,34
+2026-01-10,44,Rhode Island,wk inc rsv hosp,hosp,37
+2026-01-10,45,South Carolina,wk inc rsv hosp,hosp,140
+2026-01-10,46,South Dakota,wk inc rsv hosp,hosp,4
+2026-01-10,47,Tennessee,wk inc rsv hosp,hosp,157
+2026-01-10,48,Texas,wk inc rsv hosp,hosp,491
+2026-01-10,US,United States,wk inc rsv hosp,hosp,6165
+2026-01-10,49,Utah,wk inc rsv hosp,hosp,16
+2026-01-10,51,Virginia,wk inc rsv hosp,hosp,182
+2026-01-10,50,Vermont,wk inc rsv hosp,hosp,4
+2026-01-10,53,Washington,wk inc rsv hosp,hosp,74
+2026-01-10,55,Wisconsin,wk inc rsv hosp,hosp,73
+2026-01-10,54,West Virginia,wk inc rsv hosp,hosp,57
+2026-01-10,56,Wyoming,wk inc rsv hosp,hosp,3
+2026-01-17,02,Alaska,wk inc rsv hosp,hosp,12
+2026-01-17,01,Alabama,wk inc rsv hosp,hosp,68
+2026-01-17,05,Arkansas,wk inc rsv hosp,hosp,56
+2026-01-17,04,Arizona,wk inc rsv hosp,hosp,29
+2026-01-17,06,California,wk inc rsv hosp,hosp,426
+2026-01-17,08,Colorado,wk inc rsv hosp,hosp,76
+2026-01-17,09,Connecticut,wk inc rsv hosp,hosp,80
+2026-01-17,11,District of Columbia,wk inc rsv hosp,hosp,12
+2026-01-17,10,Delaware,wk inc rsv hosp,hosp,58
+2026-01-17,12,Florida,wk inc rsv hosp,hosp,437
+2026-01-17,13,Georgia,wk inc rsv hosp,hosp,193
+2026-01-17,15,Hawaii,wk inc rsv hosp,hosp,20
+2026-01-17,19,Iowa,wk inc rsv hosp,hosp,57
+2026-01-17,16,Idaho,wk inc rsv hosp,hosp,19
+2026-01-17,17,Illinois,wk inc rsv hosp,hosp,238
+2026-01-17,18,Indiana,wk inc rsv hosp,hosp,140
+2026-01-17,20,Kansas,wk inc rsv hosp,hosp,33
+2026-01-17,21,Kentucky,wk inc rsv hosp,hosp,96
+2026-01-17,22,Louisiana,wk inc rsv hosp,hosp,126
+2026-01-17,25,Massachusetts,wk inc rsv hosp,hosp,98
+2026-01-17,24,Maryland,wk inc rsv hosp,hosp,165
+2026-01-17,23,Maine,wk inc rsv hosp,hosp,5
+2026-01-17,26,Michigan,wk inc rsv hosp,hosp,125
+2026-01-17,27,Minnesota,wk inc rsv hosp,hosp,94
+2026-01-17,29,Missouri,wk inc rsv hosp,hosp,126
+2026-01-17,28,Mississippi,wk inc rsv hosp,hosp,65
+2026-01-17,30,Montana,wk inc rsv hosp,hosp,0
+2026-01-17,37,North Carolina,wk inc rsv hosp,hosp,229
+2026-01-17,38,North Dakota,wk inc rsv hosp,hosp,3
+2026-01-17,31,Nebraska,wk inc rsv hosp,hosp,17
+2026-01-17,33,New Hampshire,wk inc rsv hosp,hosp,23
+2026-01-17,34,New Jersey,wk inc rsv hosp,hosp,290
+2026-01-17,35,New Mexico,wk inc rsv hosp,hosp,41
+2026-01-17,32,Nevada,wk inc rsv hosp,hosp,34
+2026-01-17,36,New York,wk inc rsv hosp,hosp,597
+2026-01-17,39,Ohio,wk inc rsv hosp,hosp,292
+2026-01-17,40,Oklahoma,wk inc rsv hosp,hosp,30
+2026-01-17,41,Oregon,wk inc rsv hosp,hosp,40
+2026-01-17,42,Pennsylvania,wk inc rsv hosp,hosp,480
+2026-01-17,72,Puerto Rico,wk inc rsv hosp,hosp,38
+2026-01-17,44,Rhode Island,wk inc rsv hosp,hosp,31
+2026-01-17,45,South Carolina,wk inc rsv hosp,hosp,107
+2026-01-17,46,South Dakota,wk inc rsv hosp,hosp,10
+2026-01-17,47,Tennessee,wk inc rsv hosp,hosp,131
+2026-01-17,48,Texas,wk inc rsv hosp,hosp,431
+2026-01-17,US,United States,wk inc rsv hosp,hosp,6066
+2026-01-17,49,Utah,wk inc rsv hosp,hosp,13
+2026-01-17,51,Virginia,wk inc rsv hosp,hosp,155
+2026-01-17,50,Vermont,wk inc rsv hosp,hosp,4
+2026-01-17,53,Washington,wk inc rsv hosp,hosp,67
+2026-01-17,55,Wisconsin,wk inc rsv hosp,hosp,95
+2026-01-17,54,West Virginia,wk inc rsv hosp,hosp,47
+2026-01-17,56,Wyoming,wk inc rsv hosp,hosp,6
+2026-01-24,02,Alaska,wk inc rsv hosp,hosp,9
+2026-01-24,01,Alabama,wk inc rsv hosp,hosp,86
+2026-01-24,05,Arkansas,wk inc rsv hosp,hosp,61
+2026-01-24,04,Arizona,wk inc rsv hosp,hosp,55
+2026-01-24,06,California,wk inc rsv hosp,hosp,447
+2026-01-24,08,Colorado,wk inc rsv hosp,hosp,99
+2026-01-24,09,Connecticut,wk inc rsv hosp,hosp,82
+2026-01-24,11,District of Columbia,wk inc rsv hosp,hosp,11
+2026-01-24,10,Delaware,wk inc rsv hosp,hosp,53
+2026-01-24,12,Florida,wk inc rsv hosp,hosp,354
+2026-01-24,13,Georgia,wk inc rsv hosp,hosp,163
+2026-01-24,15,Hawaii,wk inc rsv hosp,hosp,22
+2026-01-24,19,Iowa,wk inc rsv hosp,hosp,58
+2026-01-24,16,Idaho,wk inc rsv hosp,hosp,11
+2026-01-24,17,Illinois,wk inc rsv hosp,hosp,233
+2026-01-24,18,Indiana,wk inc rsv hosp,hosp,99
+2026-01-24,20,Kansas,wk inc rsv hosp,hosp,40
+2026-01-24,21,Kentucky,wk inc rsv hosp,hosp,69
+2026-01-24,22,Louisiana,wk inc rsv hosp,hosp,124
+2026-01-24,25,Massachusetts,wk inc rsv hosp,hosp,201
+2026-01-24,24,Maryland,wk inc rsv hosp,hosp,131
+2026-01-24,23,Maine,wk inc rsv hosp,hosp,4
+2026-01-24,26,Michigan,wk inc rsv hosp,hosp,113
+2026-01-24,27,Minnesota,wk inc rsv hosp,hosp,93
+2026-01-24,29,Missouri,wk inc rsv hosp,hosp,115
+2026-01-24,28,Mississippi,wk inc rsv hosp,hosp,56
+2026-01-24,30,Montana,wk inc rsv hosp,hosp,3
+2026-01-24,37,North Carolina,wk inc rsv hosp,hosp,257
+2026-01-24,38,North Dakota,wk inc rsv hosp,hosp,7
+2026-01-24,31,Nebraska,wk inc rsv hosp,hosp,22
+2026-01-24,33,New Hampshire,wk inc rsv hosp,hosp,31
+2026-01-24,34,New Jersey,wk inc rsv hosp,hosp,310
+2026-01-24,35,New Mexico,wk inc rsv hosp,hosp,41
+2026-01-24,32,Nevada,wk inc rsv hosp,hosp,39
+2026-01-24,36,New York,wk inc rsv hosp,hosp,548
+2026-01-24,39,Ohio,wk inc rsv hosp,hosp,337
+2026-01-24,40,Oklahoma,wk inc rsv hosp,hosp,24
+2026-01-24,41,Oregon,wk inc rsv hosp,hosp,38
+2026-01-24,42,Pennsylvania,wk inc rsv hosp,hosp,419
+2026-01-24,72,Puerto Rico,wk inc rsv hosp,hosp,33
+2026-01-24,44,Rhode Island,wk inc rsv hosp,hosp,33
+2026-01-24,45,South Carolina,wk inc rsv hosp,hosp,96
+2026-01-24,46,South Dakota,wk inc rsv hosp,hosp,13
+2026-01-24,47,Tennessee,wk inc rsv hosp,hosp,138
+2026-01-24,48,Texas,wk inc rsv hosp,hosp,482
+2026-01-24,US,United States,wk inc rsv hosp,hosp,6045
+2026-01-24,49,Utah,wk inc rsv hosp,hosp,18
+2026-01-24,51,Virginia,wk inc rsv hosp,hosp,161
+2026-01-24,50,Vermont,wk inc rsv hosp,hosp,12
+2026-01-24,53,Washington,wk inc rsv hosp,hosp,53
+2026-01-24,55,Wisconsin,wk inc rsv hosp,hosp,84
+2026-01-24,54,West Virginia,wk inc rsv hosp,hosp,51
+2026-01-24,56,Wyoming,wk inc rsv hosp,hosp,3
 2022-10-01,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0072
 2022-10-01,02,Alaska,wk inc rsv prop ed visits,prop_ed,9e-4
 2022-10-01,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0021
@@ -23511,3 +23776,258 @@ week_ending_date,location,location_name,target,target_data_type,value
 2025-12-20,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0013
 2025-12-20,56,Wyoming,wk inc rsv prop ed visits,prop_ed,4e-4
 2025-12-20,US,United States,wk inc rsv prop ed visits,prop_ed,0.0041
+2025-12-27,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0073
+2025-12-27,02,Alaska,wk inc rsv prop ed visits,prop_ed,0.0078
+2025-12-27,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0013
+2025-12-27,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.0107
+2025-12-27,06,California,wk inc rsv prop ed visits,prop_ed,0.0026
+2025-12-27,08,Colorado,wk inc rsv prop ed visits,prop_ed,0.002
+2025-12-27,09,Connecticut,wk inc rsv prop ed visits,prop_ed,0.0029
+2025-12-27,10,Delaware,wk inc rsv prop ed visits,prop_ed,0.013
+2025-12-27,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0.0055
+2025-12-27,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0061
+2025-12-27,13,Georgia,wk inc rsv prop ed visits,prop_ed,0.006
+2025-12-27,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.005
+2025-12-27,16,Idaho,wk inc rsv prop ed visits,prop_ed,0.0024
+2025-12-27,17,Illinois,wk inc rsv prop ed visits,prop_ed,0.0058
+2025-12-27,18,Indiana,wk inc rsv prop ed visits,prop_ed,0.0042
+2025-12-27,19,Iowa,wk inc rsv prop ed visits,prop_ed,0.0038
+2025-12-27,20,Kansas,wk inc rsv prop ed visits,prop_ed,0.0025
+2025-12-27,21,Kentucky,wk inc rsv prop ed visits,prop_ed,0.0081
+2025-12-27,22,Louisiana,wk inc rsv prop ed visits,prop_ed,0.0072
+2025-12-27,23,Maine,wk inc rsv prop ed visits,prop_ed,5e-4
+2025-12-27,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0079
+2025-12-27,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.0046
+2025-12-27,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.0028
+2025-12-27,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0.004
+2025-12-27,28,Mississippi,wk inc rsv prop ed visits,prop_ed,0.0055
+2025-12-27,30,Montana,wk inc rsv prop ed visits,prop_ed,0.0013
+2025-12-27,31,Nebraska,wk inc rsv prop ed visits,prop_ed,0.001
+2025-12-27,32,Nevada,wk inc rsv prop ed visits,prop_ed,0.0023
+2025-12-27,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0.0041
+2025-12-27,34,New Jersey,wk inc rsv prop ed visits,prop_ed,0.0068
+2025-12-27,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0.0016
+2025-12-27,36,New York,wk inc rsv prop ed visits,prop_ed,0.0041
+2025-12-27,37,North Carolina,wk inc rsv prop ed visits,prop_ed,0.0081
+2025-12-27,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0.0011
+2025-12-27,39,Ohio,wk inc rsv prop ed visits,prop_ed,0.0039
+2025-12-27,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,0.0043
+2025-12-27,41,Oregon,wk inc rsv prop ed visits,prop_ed,0.0024
+2025-12-27,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,0.0043
+2025-12-27,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0.005
+2025-12-27,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0.0088
+2025-12-27,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0.0019
+2025-12-27,47,Tennessee,wk inc rsv prop ed visits,prop_ed,0.007
+2025-12-27,48,Texas,wk inc rsv prop ed visits,prop_ed,0.0084
+2025-12-27,49,Utah,wk inc rsv prop ed visits,prop_ed,0.0012
+2025-12-27,50,Vermont,wk inc rsv prop ed visits,prop_ed,0.0029
+2025-12-27,51,Virginia,wk inc rsv prop ed visits,prop_ed,0.0068
+2025-12-27,53,Washington,wk inc rsv prop ed visits,prop_ed,0.0053
+2025-12-27,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0.0067
+2025-12-27,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0018
+2025-12-27,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0.0014
+2025-12-27,US,United States,wk inc rsv prop ed visits,prop_ed,0.0053
+2026-01-03,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0071
+2026-01-03,02,Alaska,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-03,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0013
+2026-01-03,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.009
+2026-01-03,06,California,wk inc rsv prop ed visits,prop_ed,0.0032
+2026-01-03,08,Colorado,wk inc rsv prop ed visits,prop_ed,0.0023
+2026-01-03,09,Connecticut,wk inc rsv prop ed visits,prop_ed,0.0036
+2026-01-03,10,Delaware,wk inc rsv prop ed visits,prop_ed,0.0144
+2026-01-03,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0.0068
+2026-01-03,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0058
+2026-01-03,13,Georgia,wk inc rsv prop ed visits,prop_ed,0.0061
+2026-01-03,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-03,16,Idaho,wk inc rsv prop ed visits,prop_ed,0.0024
+2026-01-03,17,Illinois,wk inc rsv prop ed visits,prop_ed,0.0066
+2026-01-03,18,Indiana,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-03,19,Iowa,wk inc rsv prop ed visits,prop_ed,0.0048
+2026-01-03,20,Kansas,wk inc rsv prop ed visits,prop_ed,0.0035
+2026-01-03,21,Kentucky,wk inc rsv prop ed visits,prop_ed,0.0087
+2026-01-03,22,Louisiana,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-03,23,Maine,wk inc rsv prop ed visits,prop_ed,9e-4
+2026-01-03,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0084
+2026-01-03,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.0056
+2026-01-03,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.0033
+2026-01-03,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-03,28,Mississippi,wk inc rsv prop ed visits,prop_ed,0.0058
+2026-01-03,30,Montana,wk inc rsv prop ed visits,prop_ed,6e-4
+2026-01-03,31,Nebraska,wk inc rsv prop ed visits,prop_ed,9e-4
+2026-01-03,32,Nevada,wk inc rsv prop ed visits,prop_ed,0.0022
+2026-01-03,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-03,34,New Jersey,wk inc rsv prop ed visits,prop_ed,0.0068
+2026-01-03,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0.0018
+2026-01-03,36,New York,wk inc rsv prop ed visits,prop_ed,0.0045
+2026-01-03,37,North Carolina,wk inc rsv prop ed visits,prop_ed,0.0079
+2026-01-03,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0.0011
+2026-01-03,39,Ohio,wk inc rsv prop ed visits,prop_ed,0.0041
+2026-01-03,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,0.0055
+2026-01-03,41,Oregon,wk inc rsv prop ed visits,prop_ed,0.0023
+2026-01-03,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,0.0049
+2026-01-03,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0.0069
+2026-01-03,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0.0077
+2026-01-03,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0.001
+2026-01-03,47,Tennessee,wk inc rsv prop ed visits,prop_ed,0.0081
+2026-01-03,48,Texas,wk inc rsv prop ed visits,prop_ed,0.008
+2026-01-03,49,Utah,wk inc rsv prop ed visits,prop_ed,0.0015
+2026-01-03,50,Vermont,wk inc rsv prop ed visits,prop_ed,0.0022
+2026-01-03,51,Virginia,wk inc rsv prop ed visits,prop_ed,0.007
+2026-01-03,53,Washington,wk inc rsv prop ed visits,prop_ed,0.0057
+2026-01-03,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0.009
+2026-01-03,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0023
+2026-01-03,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0.0022
+2026-01-03,US,United States,wk inc rsv prop ed visits,prop_ed,0.0055
+2026-01-10,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0047
+2026-01-10,02,Alaska,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-10,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0011
+2026-01-10,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.0069
+2026-01-10,06,California,wk inc rsv prop ed visits,prop_ed,0.0029
+2026-01-10,08,Colorado,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-10,09,Connecticut,wk inc rsv prop ed visits,prop_ed,0.0031
+2026-01-10,10,Delaware,wk inc rsv prop ed visits,prop_ed,0.0109
+2026-01-10,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0.0052
+2026-01-10,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-10,13,Georgia,wk inc rsv prop ed visits,prop_ed,0.005
+2026-01-10,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.0072
+2026-01-10,16,Idaho,wk inc rsv prop ed visits,prop_ed,0.0025
+2026-01-10,17,Illinois,wk inc rsv prop ed visits,prop_ed,0.0055
+2026-01-10,18,Indiana,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-10,19,Iowa,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-10,20,Kansas,wk inc rsv prop ed visits,prop_ed,0.0032
+2026-01-10,21,Kentucky,wk inc rsv prop ed visits,prop_ed,0.0075
+2026-01-10,22,Louisiana,wk inc rsv prop ed visits,prop_ed,0.0047
+2026-01-10,23,Maine,wk inc rsv prop ed visits,prop_ed,6e-4
+2026-01-10,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0073
+2026-01-10,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.0053
+2026-01-10,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.003
+2026-01-10,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0.004
+2026-01-10,28,Mississippi,wk inc rsv prop ed visits,prop_ed,0.0052
+2026-01-10,30,Montana,wk inc rsv prop ed visits,prop_ed,0.0011
+2026-01-10,31,Nebraska,wk inc rsv prop ed visits,prop_ed,9e-4
+2026-01-10,32,Nevada,wk inc rsv prop ed visits,prop_ed,0.002
+2026-01-10,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-10,34,New Jersey,wk inc rsv prop ed visits,prop_ed,0.0056
+2026-01-10,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0.0017
+2026-01-10,36,New York,wk inc rsv prop ed visits,prop_ed,0.0037
+2026-01-10,37,North Carolina,wk inc rsv prop ed visits,prop_ed,0.0066
+2026-01-10,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0.0011
+2026-01-10,39,Ohio,wk inc rsv prop ed visits,prop_ed,0.0035
+2026-01-10,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,0.005
+2026-01-10,41,Oregon,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-10,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-10,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-10,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0.0045
+2026-01-10,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0.0018
+2026-01-10,47,Tennessee,wk inc rsv prop ed visits,prop_ed,0.0059
+2026-01-10,48,Texas,wk inc rsv prop ed visits,prop_ed,0.0057
+2026-01-10,49,Utah,wk inc rsv prop ed visits,prop_ed,0.0018
+2026-01-10,50,Vermont,wk inc rsv prop ed visits,prop_ed,0.0026
+2026-01-10,51,Virginia,wk inc rsv prop ed visits,prop_ed,0.0049
+2026-01-10,53,Washington,wk inc rsv prop ed visits,prop_ed,0.0057
+2026-01-10,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0.0068
+2026-01-10,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-10,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0.0018
+2026-01-10,US,United States,wk inc rsv prop ed visits,prop_ed,0.0045
+2026-01-17,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0043
+2026-01-17,02,Alaska,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-17,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0015
+2026-01-17,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.0114
+2026-01-17,06,California,wk inc rsv prop ed visits,prop_ed,0.003
+2026-01-17,08,Colorado,wk inc rsv prop ed visits,prop_ed,0.0034
+2026-01-17,09,Connecticut,wk inc rsv prop ed visits,prop_ed,0.0038
+2026-01-17,10,Delaware,wk inc rsv prop ed visits,prop_ed,0.0121
+2026-01-17,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0.0051
+2026-01-17,12,Florida,wk inc rsv prop ed visits,prop_ed,0.004
+2026-01-17,13,Georgia,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-17,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.0053
+2026-01-17,16,Idaho,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-17,17,Illinois,wk inc rsv prop ed visits,prop_ed,0.0063
+2026-01-17,18,Indiana,wk inc rsv prop ed visits,prop_ed,0.0045
+2026-01-17,19,Iowa,wk inc rsv prop ed visits,prop_ed,0.0065
+2026-01-17,20,Kansas,wk inc rsv prop ed visits,prop_ed,0.0037
+2026-01-17,21,Kentucky,wk inc rsv prop ed visits,prop_ed,0.0064
+2026-01-17,22,Louisiana,wk inc rsv prop ed visits,prop_ed,0.0049
+2026-01-17,23,Maine,wk inc rsv prop ed visits,prop_ed,6e-4
+2026-01-17,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0073
+2026-01-17,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.0063
+2026-01-17,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.0031
+2026-01-17,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-17,28,Mississippi,wk inc rsv prop ed visits,prop_ed,0.0059
+2026-01-17,30,Montana,wk inc rsv prop ed visits,prop_ed,6e-4
+2026-01-17,31,Nebraska,wk inc rsv prop ed visits,prop_ed,0.0012
+2026-01-17,32,Nevada,wk inc rsv prop ed visits,prop_ed,0.0025
+2026-01-17,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0.0061
+2026-01-17,34,New Jersey,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-17,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0.0028
+2026-01-17,36,New York,wk inc rsv prop ed visits,prop_ed,0.0037
+2026-01-17,37,North Carolina,wk inc rsv prop ed visits,prop_ed,0.0065
+2026-01-17,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0.0019
+2026-01-17,39,Ohio,wk inc rsv prop ed visits,prop_ed,0.0036
+2026-01-17,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,0.0049
+2026-01-17,41,Oregon,wk inc rsv prop ed visits,prop_ed,0.003
+2026-01-17,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,0.0047
+2026-01-17,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0.007
+2026-01-17,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0.0042
+2026-01-17,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0.0024
+2026-01-17,47,Tennessee,wk inc rsv prop ed visits,prop_ed,0.0062
+2026-01-17,48,Texas,wk inc rsv prop ed visits,prop_ed,0.0056
+2026-01-17,49,Utah,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-17,50,Vermont,wk inc rsv prop ed visits,prop_ed,0.0041
+2026-01-17,51,Virginia,wk inc rsv prop ed visits,prop_ed,0.0053
+2026-01-17,53,Washington,wk inc rsv prop ed visits,prop_ed,0.0049
+2026-01-17,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0.0062
+2026-01-17,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0035
+2026-01-17,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0.0012
+2026-01-17,US,United States,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-24,01,Alabama,wk inc rsv prop ed visits,prop_ed,0.0035
+2026-01-24,02,Alaska,wk inc rsv prop ed visits,prop_ed,0.004
+2026-01-24,04,Arizona,wk inc rsv prop ed visits,prop_ed,0.0017
+2026-01-24,05,Arkansas,wk inc rsv prop ed visits,prop_ed,0.0109
+2026-01-24,06,California,wk inc rsv prop ed visits,prop_ed,0.0034
+2026-01-24,08,Colorado,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-24,09,Connecticut,wk inc rsv prop ed visits,prop_ed,0.0035
+2026-01-24,10,Delaware,wk inc rsv prop ed visits,prop_ed,0.0106
+2026-01-24,11,District of Columbia,wk inc rsv prop ed visits,prop_ed,0.0036
+2026-01-24,12,Florida,wk inc rsv prop ed visits,prop_ed,0.0033
+2026-01-24,13,Georgia,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-24,15,Hawaii,wk inc rsv prop ed visits,prop_ed,0.005
+2026-01-24,16,Idaho,wk inc rsv prop ed visits,prop_ed,0.003
+2026-01-24,17,Illinois,wk inc rsv prop ed visits,prop_ed,0.0068
+2026-01-24,18,Indiana,wk inc rsv prop ed visits,prop_ed,0.0047
+2026-01-24,19,Iowa,wk inc rsv prop ed visits,prop_ed,0.0069
+2026-01-24,20,Kansas,wk inc rsv prop ed visits,prop_ed,0.0047
+2026-01-24,21,Kentucky,wk inc rsv prop ed visits,prop_ed,0.0068
+2026-01-24,22,Louisiana,wk inc rsv prop ed visits,prop_ed,0.0055
+2026-01-24,23,Maine,wk inc rsv prop ed visits,prop_ed,0.001
+2026-01-24,24,Maryland,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-24,25,Massachusetts,wk inc rsv prop ed visits,prop_ed,0.007
+2026-01-24,26,Michigan,wk inc rsv prop ed visits,prop_ed,0.0043
+2026-01-24,27,Minnesota,wk inc rsv prop ed visits,prop_ed,0.0048
+2026-01-24,28,Mississippi,wk inc rsv prop ed visits,prop_ed,0.0078
+2026-01-24,30,Montana,wk inc rsv prop ed visits,prop_ed,0.0017
+2026-01-24,31,Nebraska,wk inc rsv prop ed visits,prop_ed,7e-4
+2026-01-24,32,Nevada,wk inc rsv prop ed visits,prop_ed,0.0029
+2026-01-24,33,New Hampshire,wk inc rsv prop ed visits,prop_ed,0.0069
+2026-01-24,34,New Jersey,wk inc rsv prop ed visits,prop_ed,0.0069
+2026-01-24,35,New Mexico,wk inc rsv prop ed visits,prop_ed,0.0036
+2026-01-24,36,New York,wk inc rsv prop ed visits,prop_ed,0.0038
+2026-01-24,37,North Carolina,wk inc rsv prop ed visits,prop_ed,0.0066
+2026-01-24,38,North Dakota,wk inc rsv prop ed visits,prop_ed,0.0028
+2026-01-24,39,Ohio,wk inc rsv prop ed visits,prop_ed,0.0044
+2026-01-24,40,Oklahoma,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-24,41,Oregon,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-24,42,Pennsylvania,wk inc rsv prop ed visits,prop_ed,0.0048
+2026-01-24,44,Rhode Island,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-24,45,South Carolina,wk inc rsv prop ed visits,prop_ed,0.0038
+2026-01-24,46,South Dakota,wk inc rsv prop ed visits,prop_ed,0.0027
+2026-01-24,47,Tennessee,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-24,48,Texas,wk inc rsv prop ed visits,prop_ed,0.0064
+2026-01-24,49,Utah,wk inc rsv prop ed visits,prop_ed,0.004
+2026-01-24,50,Vermont,wk inc rsv prop ed visits,prop_ed,0.0045
+2026-01-24,51,Virginia,wk inc rsv prop ed visits,prop_ed,0.0046
+2026-01-24,53,Washington,wk inc rsv prop ed visits,prop_ed,0.0054
+2026-01-24,54,West Virginia,wk inc rsv prop ed visits,prop_ed,0.0067
+2026-01-24,55,Wisconsin,wk inc rsv prop ed visits,prop_ed,0.0043
+2026-01-24,56,Wyoming,wk inc rsv prop ed visits,prop_ed,0.0016
+2026-01-24,US,United States,wk inc rsv prop ed visits,prop_ed,0.0049
