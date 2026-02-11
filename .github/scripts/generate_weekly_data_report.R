@@ -15,16 +15,16 @@ parser <- argparser::add_argument(
 )
 parser <- argparser::add_argument(
   parser,
+  "--disease",
+  type = "character",
+  help = "Disease name (e.g., 'covid' or 'rsv')."
+)
+parser <- argparser::add_argument(
+  parser,
   "--hub-reports-path",
   type = "character",
   default = ".",
   help = "Path to the hub reports directory."
-)
-parser <- argparser::add_argument(
-  parser,
-  "--disease",
-  type = "character",
-  help = "Disease name (e.g., 'covid' or 'rsv')."
 )
 parser <- argparser::add_argument(
   parser,
@@ -69,6 +69,5 @@ hubhelpr::write_viz_target_data(
   as_of = as_of_date,
   disease = disease,
   pull_nhsn = TRUE,
-  pull_nssp = ref_date >= as.Date("2025-06-21"),
-  end_date = ref_date - lubridate::days(2)
+  pull_nssp = ref_date >= as.Date("2025-06-21")
 )
