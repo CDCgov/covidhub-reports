@@ -52,8 +52,8 @@ jobs:
           fi
           echo "Using reference date: $REF_DATE"
 
-          Rscript .github/scripts/generate_weekly_data_report.R --reference-date "$REF_DATE" --base-hub-path "../rsv-forecast-hub" --disease "rsv"
-          Rscript .github/scripts/generate_weekly_data_report.R --reference-date "$REF_DATE" --base-hub-path "../covid19-forecast-hub" --disease "covid"
+          Rscript .github/scripts/generate_weekly_data_report.R --reference-date "$REF_DATE" --base-hub-path "rsv-forecast-hub" --disease "rsv"
+          Rscript .github/scripts/generate_weekly_data_report.R --reference-date "$REF_DATE" --base-hub-path "covid19-forecast-hub" --disease "covid"
         env:
           DATA_CDC_GOV_API_KEY_ID: ${{ secrets.NHSN_API_KEY_ID }}
           DATA_CDC_GOV_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
