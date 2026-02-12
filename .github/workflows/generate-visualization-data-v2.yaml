@@ -15,10 +15,10 @@ permissions:
 
 jobs:
   update-visualization-data:
-    if: ${{ github.repository_owner == 'CDCgov' && (github.event_name == 'workflow_dispatch' || github.event.action == matrix.event_type) }}
+    if: ${{ github.repository_owner == 'CDCgov' }}
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false # prevent one disease failing won't cancel other
+      fail-fast: false
       matrix:
         include:
           - disease: covid
@@ -32,7 +32,17 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: "Check dispatch relevance"
+        id: check
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]] || [[ "${{ github.event.action }}" == "${{ matrix.event_type }}" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: "Generate Installation Token"
+        if: steps.check.outputs.should_run == 'true'
         id: get_token
         uses: actions/create-github-app-token@v2
         with:
@@ -40,18 +50,22 @@ jobs:
           private-key: ${{ secrets.GH_APP_KEY }}
 
       - name: "Checkout Current Repository"
+        if: steps.check.outputs.should_run == 'true'
         uses: actions/checkout@v6
 
       - name: "Checkout Hub Repository"
+        if: steps.check.outputs.should_run == 'true'
         uses: actions/checkout@v6
         with:
           repository: ${{ matrix.hub_repo }}
           path: ${{ matrix.hub_path }}
 
       - name: "Set Up hubhelpr"
+        if: steps.check.outputs.should_run == 'true'
         uses: cdcgov/hubhelpr/actions/setup-hubhelpr@main
 
       - name: "Generate Data Files"
+        if: steps.check.outputs.should_run == 'true'
         run: |
           if [ -n "${{ inputs.reference_date }}" ]; then
             REF_DATE="${{ inputs.reference_date }}"
@@ -66,6 +80,7 @@ jobs:
           DATA_CDC_GOV_API_KEY_SECRET: ${{ secrets.NHSN_API_KEY_SECRET }}
 
       - name: "Commit Changes"
+        if: steps.check.outputs.should_run == 'true'
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update weekly ${{ matrix.disease }} data and web text"
@@ -74,6 +89,7 @@ jobs:
           new_branch: add-viz-v2-${{ matrix.disease }}-data
 
       - name: "Create Pull Request"
+        if: steps.check.outputs.should_run == 'true'
         id: create_pr
         run: |
           gh pr create --base main --head "add-viz-v2-${{ matrix.disease }}-data" --title "Weekly ${{ matrix.disease }} forecast visualization data" --body "This PR is generated automatically to add weekly visualization data files for ${{ matrix.disease }}."
