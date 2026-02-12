@@ -1,5 +1,4 @@
-ci:
-  skip_branch_pattern: ^add-viz-v2-.*-data$
+
 
 repos:
 #####
