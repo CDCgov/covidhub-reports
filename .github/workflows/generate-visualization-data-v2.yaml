@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   update-visualization-data:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.action == matrix.event_type }}
+    if: ${{ github.repository_owner == 'CDCgov' && (github.event_name == 'workflow_dispatch' || github.event.action == matrix.event_type) }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false # prevent one disease failing won't cancel other
